@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>probar si puede acceder con usuarios que no existan</description>
+   <name>login02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>106b405e-0811-4459-9961-82a8d910023b</testCaseGuid>
+</TestCaseEntity>

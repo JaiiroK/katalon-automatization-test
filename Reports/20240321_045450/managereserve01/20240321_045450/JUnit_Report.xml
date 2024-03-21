@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="managereserve01" time="7.511" tests="1" failures="0" errors="0">
+   <testsuite name="managereserve01" tests="1" failures="0" errors="0" time="7.511" skipped="0" timestamp="21-03-2024T04:54:58" hostname="Michael - DESKTOP-CAK74HU" id="Test Suites/managereserve01">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Michael\\git\\katalon-automatization-test\\Reports\\20240321_045450\\managereserve01\\20240321_045450"/>
+         <property name="logFiles" value="C:\\Users\\Michael\\git\\katalon-automatization-test\\Reports\\20240321_045450\\managereserve01\\20240321_045450\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Michael - DESKTOP-CAK74HU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Edge Chromium 122"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="a698e6bdbdb2ec1e7fbef706f7073bb5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/login01" time="7.374" classname="Test Cases/login01" status="PASSED">
+         <system-out><![CDATA[21-03-2024T04:54:58 - [TEST_CASE][PASSED] - Test Cases/login01: Test Cases/login01
+
+21-03-2024T04:54:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-03-2024T04:54:59 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+21-03-2024T04:55:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-03-2024T04:55:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-03-2024T04:55:02 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/"): Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T04:55:03 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T04:55:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_Log In")): Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T04:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T04:55:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_User Name_username"), "gege"): Text 'gege' is set on object 'Object Repository/input_User Name_username'
+
+21-03-2024T04:55:04 - [MESSAGE][PASSED] - Text 'gege' is set on object 'Object Repository/input_User Name_username'
+
+21-03-2024T04:55:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_Password_password"), "tzH6RvlfSTg="): Text ****** has been set on object 'Object Repository/input_Password_password'
+
+21-03-2024T04:55:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_Password_password'
+
+21-03-2024T04:55:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_Log In")): Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T04:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T04:55:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("h1_Reservations"), 1): Object 'Object Repository/h1_Reservations' is present
+
+21-03-2024T04:55:06 - [MESSAGE][PASSED] - Object 'Object Repository/h1_Reservations' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-03-2024T04:54:58 - [TEST_SUITE][PASSED] - managereserve01: Test Cases/login01]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

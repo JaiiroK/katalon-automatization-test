@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+managereserve01,Edge Chromium 122,,,21-03-2024 04:54:58,21-03-2024 04:55:06,7.511s,PASSED
+,,,,,,,
+Test Cases/login01,Edge Chromium 122,,,21-03-2024 04:54:58,21-03-2024 04:55:06,7.374s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 04:54:59,21-03-2024 04:55:02,3.343s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Edge Chromium 122,,,21-03-2024 04:55:02,21-03-2024 04:55:03,0.655s,PASSED
+"click(findTestObject(""Object Repository/button_Log In""))",Edge Chromium 122,,,21-03-2024 04:55:03,21-03-2024 04:55:03,0.609s,PASSED
+"setText(findTestObject(""Object Repository/input_User Name_username""), ""gege"")",Edge Chromium 122,,,21-03-2024 04:55:03,21-03-2024 04:55:04,0.824s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Password_password""), ""tzH6RvlfSTg="")",Edge Chromium 122,,,21-03-2024 04:55:04,21-03-2024 04:55:04,0.342s,PASSED
+"click(findTestObject(""Object Repository/button_Log In""))",Edge Chromium 122,,,21-03-2024 04:55:04,21-03-2024 04:55:05,0.580s,PASSED
+"verifyElementPresent(findTestObject(""h1_Reservations""), 1)",Edge Chromium 122,,,21-03-2024 04:55:05,21-03-2024 04:55:06,0.829s,PASSED
