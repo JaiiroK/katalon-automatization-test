@@ -15,14 +15,26 @@
       <guid>4ae8fe75-1c3e-4aa8-ab0b-10439f61944e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/login01</testCaseId>
+      <testCaseId>Test Cases/login/login01</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c48c2bb4-c496-4047-97f8-6e5148aedcb4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8246840d-1186-4bdd-b6df-892220e1cbf4</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>3b70b0f2-626c-4795-9f41-75dbe725f0fb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/managereserve02</testCaseId>
+      <testCaseId>Test Cases/managereserve/managereserve02</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

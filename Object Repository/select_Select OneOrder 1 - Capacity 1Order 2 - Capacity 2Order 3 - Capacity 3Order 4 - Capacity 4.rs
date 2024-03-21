@@ -6,12 +6,12 @@
    <elementGuidId>d505b610-879f-42c8-aecd-002c2f9f5fe7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='tableId']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#tableId</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='tableId']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>79dd3ed4-3ded-42f2-be21-1aae8dca27ed</webElementGuid>
+      <webElementGuid>6efe0faa-82ee-4c71-b77f-1e59a05b3736</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>name</name>
       <type>Main</type>
       <value>tableId</value>
-      <webElementGuid>1d16b782-10f2-437f-bc16-cd3411daacc7</webElementGuid>
+      <webElementGuid>de0d5a5d-2906-48e5-9778-73f5de3329b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>tableId</value>
-      <webElementGuid>3e8d62c1-c692-47bc-8a90-7e73a4161850</webElementGuid>
+      <webElementGuid>f28f81a9-4bc0-4d29-b8e2-f02ab8de950a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>outline-none bg-transparent</value>
-      <webElementGuid>0beb7d7f-b666-4356-9657-2894d3d60cc8</webElementGuid>
+      <webElementGuid>8f0be2ea-6c78-4dca-b366-0d1c11884e8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Select OneOrder: 1 - Capacity: 1Order: 2 - Capacity: 2Order: 3 - Capacity: 3Order: 4 - Capacity: 4</value>
-      <webElementGuid>c61ed832-246f-4d84-b3b7-dd4ed92f9bf1</webElementGuid>
+      <webElementGuid>760f9887-527e-4157-9295-e7c12d0308e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,15 +62,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tableId&quot;)</value>
-      <webElementGuid>729f2d85-8ada-437f-a0b1-d613ddcf44e6</webElementGuid>
+      <webElementGuid>bef872c8-737b-4c19-8ce2-1f9dbe68fb17</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='tableId']</value>
-      <webElementGuid>b1a690c9-73b2-4d40-bd12-55021ae49170</webElementGuid>
+      <webElementGuid>7c293ef9-940b-4d16-9e6b-724ec6f3771e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/select</value>
-      <webElementGuid>37d5bd27-42da-4530-ba82-67ba7173baca</webElementGuid>
+      <webElementGuid>7eeab02d-8895-4f3f-9ed8-2019e9b921ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@name = 'tableId' and @id = 'tableId' and (text() = 'Select OneOrder: 1 - Capacity: 1Order: 2 - Capacity: 2Order: 3 - Capacity: 3Order: 4 - Capacity: 4' or . = 'Select OneOrder: 1 - Capacity: 1Order: 2 - Capacity: 2Order: 3 - Capacity: 3Order: 4 - Capacity: 4')]</value>
-      <webElementGuid>da0dc601-f0c0-4607-9386-53ad391e1749</webElementGuid>
+      <webElementGuid>c6e1c7e1-23e2-4c25-a4ca-b9472f16feab</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

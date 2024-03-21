@@ -6,12 +6,12 @@
    <elementGuidId>ed154daf-397c-4738-bb4e-0ffe6a27c134</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='restaurantId']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#restaurantId</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='restaurantId']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>cb4f5869-bb51-45aa-93d9-84938f57319f</webElementGuid>
+      <webElementGuid>a9159a11-ae6e-4b89-a929-d192567df835</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>name</name>
       <type>Main</type>
       <value>restaurantId</value>
-      <webElementGuid>81e69a97-2b08-4a3b-ac5a-7839a663fead</webElementGuid>
+      <webElementGuid>e2790000-fe10-4baa-8028-03c26559d093</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>restaurantId</value>
-      <webElementGuid>96f636f5-f96d-494d-9658-fe757fec76de</webElementGuid>
+      <webElementGuid>2ce5694c-792f-4157-a15c-7cac56dedee6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>outline-none bg-transparent</value>
-      <webElementGuid>1ee1876a-3aec-4edb-9cc0-de185b223ffa</webElementGuid>
+      <webElementGuid>8c0fef20-1e48-41a9-a656-961c0772013b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Select OneMilano</value>
-      <webElementGuid>0412b1e3-a5b0-40f2-84d5-95983f4e2e4e</webElementGuid>
+      <webElementGuid>f1be09a5-b6a3-4ae8-9cf9-3d77ed44bb1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;restaurantId&quot;)</value>
-      <webElementGuid>467f7595-4fb3-4ba7-af3d-1cf57ccd701d</webElementGuid>
+      <webElementGuid>4030a358-f26a-4c55-9702-bf05d4ee6262</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='restaurantId']</value>
-      <webElementGuid>9858bfd7-1d93-4782-998f-56eeb00d8167</webElementGuid>
+      <webElementGuid>cfbe7de8-2c27-420f-aadf-8f83a7dcbeca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
-      <webElementGuid>e9df3fc2-6cea-49b4-98b9-53be641d45d0</webElementGuid>
+      <webElementGuid>49585e2a-5644-49ec-b2fb-dd0e59c87891</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@name = 'restaurantId' and @id = 'restaurantId' and (text() = 'Select OneMilano' or . = 'Select OneMilano')]</value>
-      <webElementGuid>d0af357c-d794-4f59-bfc8-3729d4a34d7b</webElementGuid>
+      <webElementGuid>23e642a8-20a7-4756-9df3-3cbe0101af8e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

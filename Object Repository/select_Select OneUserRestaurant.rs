@@ -6,12 +6,12 @@
    <elementGuidId>c57c3fdf-e3da-4d23-a8b8-66e583e51df5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='type']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#type</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='type']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>ccba4857-170e-4368-bb67-a1184a55662d</webElementGuid>
+      <webElementGuid>da49b6bb-5cec-4c0f-9498-b7c9fd185185</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>name</name>
       <type>Main</type>
       <value>type</value>
-      <webElementGuid>85e50b05-7b9b-4131-9022-0ab6dafd76b6</webElementGuid>
+      <webElementGuid>6d1f0432-52bb-494a-b752-3f2baa4e6bed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>type</value>
-      <webElementGuid>91fceda1-3a93-47d0-8471-5a4acf32aec7</webElementGuid>
+      <webElementGuid>edc3b8b6-b4b4-4e73-bd9f-5916978f4ad5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>outline-none bg-transparent</value>
-      <webElementGuid>9d2d070a-5d6d-4214-b382-ad6bbfc197e2</webElementGuid>
+      <webElementGuid>9cdcced7-116e-4e49-a7ae-fe43952b6907</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Select OneUserRestaurant</value>
-      <webElementGuid>919ab874-37c8-4a67-a960-c91b2b15deeb</webElementGuid>
+      <webElementGuid>4caf2fc6-5314-4726-b936-af1dd872613f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;type&quot;)</value>
-      <webElementGuid>a01699e2-bdde-453a-83f5-0e6bd3ef8a45</webElementGuid>
+      <webElementGuid>9c9821e6-73e1-4ea2-a445-004791cd6fa9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='type']</value>
-      <webElementGuid>6d8991a6-c16c-4941-aa35-4ee3ac740760</webElementGuid>
+      <webElementGuid>f3362ef5-bc80-4c3f-9822-f7e610c08e8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
-      <webElementGuid>886fd23e-08dd-485d-a65f-075bea4846c6</webElementGuid>
+      <webElementGuid>6296daae-1be7-400a-b408-7bdf3ac615a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@name = 'type' and @id = 'type' and (text() = 'Select OneUserRestaurant' or . = 'Select OneUserRestaurant')]</value>
-      <webElementGuid>d29a8ecc-7592-4ee5-b588-5dd1eecdba39</webElementGuid>
+      <webElementGuid>42fec9de-e6c7-43e6-b245-939cfac6e0cc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
