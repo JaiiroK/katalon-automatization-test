@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Reservations</name>
+   <tag></tag>
+   <elementGuidId>3fb26dcc-1b33-4989-a324-86b6f86426ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1.text-violet-950.text-4xl</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>5c64290f-2658-47d2-b8d0-18ff857bef46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-violet-950 text-4xl</value>
+      <webElementGuid>283a13ef-c8d3-4821-b3cb-76eade74eeae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Reservations</value>
+      <webElementGuid>8e47eb81-0de9-4916-a1dc-3da29759d000</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;__className_5f06f5&quot;]/div[@class=&quot;relative h-screen&quot;]/main[@class=&quot;px-16&quot;]/div[@class=&quot;mt-8&quot;]/h1[@class=&quot;text-violet-950 text-4xl&quot;]</value>
+      <webElementGuid>58485130-62d5-46a9-b706-c99aa3d75829</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>6b4390e6-477b-467e-b6e3-b5aef3f7e9e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Reservations' or . = 'Reservations')]</value>
+      <webElementGuid>30696a33-14bd-4cc2-8894-0bc73161b43c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

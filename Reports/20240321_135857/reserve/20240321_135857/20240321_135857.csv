@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+reserve,Edge Chromium 122,,,21-03-2024 13:59:05,21-03-2024 13:59:50,44.556s,FAILED
+,,,,,,,
+Test Cases/managereserve/managereserve01,Edge Chromium 122,Prueba si se pueden crear nuevas reservas,,21-03-2024 13:59:05,21-03-2024 13:59:19,13.559s,FAILED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 13:59:06,21-03-2024 13:59:09,3.103s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Edge Chromium 122,,,21-03-2024 13:59:09,21-03-2024 13:59:09,0.614s,PASSED
+"click(findTestObject(""Object Repository/button_Log In""))",Edge Chromium 122,,,21-03-2024 13:59:09,21-03-2024 13:59:10,0.608s,PASSED
+"setText(findTestObject(""Object Repository/input_User Name_username""), ""gege"")",Edge Chromium 122,,,21-03-2024 13:59:10,21-03-2024 13:59:11,0.930s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Password_password""), ""tzH6RvlfSTg="")",Edge Chromium 122,,,21-03-2024 13:59:11,21-03-2024 13:59:11,0.343s,PASSED
+"click(findTestObject(""Object Repository/button_Log In""))",Edge Chromium 122,,,21-03-2024 13:59:11,21-03-2024 13:59:12,0.555s,PASSED
+"verifyElementPresent(findTestObject(""SeeIfloged""), 1)",Edge Chromium 122,,,21-03-2024 13:59:12,21-03-2024 13:59:13,1.083s,PASSED
+"click(findTestObject(""Object Repository/a_Add Reservation""))",Edge Chromium 122,,,21-03-2024 13:59:13,21-03-2024 13:59:13,0.298s,PASSED
+"setText(findTestObject(""Object Repository/input_Date_date""), fecha)",Edge Chromium 122,,,21-03-2024 13:59:13,21-03-2024 13:59:14,1.014s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/select_Select OneMilano""), restaurante, true)",Edge Chromium 122,,,21-03-2024 13:59:14,21-03-2024 13:59:15,0.823s,PASSED
+"selectOptionByValue(findTestObject(""select_Select OneOrder 1 - Capacity 1Order 2 - Capacity 2Order 3 - Capacity 3Order 4 - Capacity 4""), mesa, true)",Edge Chromium 122,,,21-03-2024 13:59:15,21-03-2024 13:59:16,1.081s,PASSED
+"click(findTestObject(""Object Repository/button_Create Reservation""))",Edge Chromium 122,,,21-03-2024 13:59:16,21-03-2024 13:59:17,0.512s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/div_Reservation Created""), 1)",Edge Chromium 122,,,21-03-2024 13:59:17,21-03-2024 13:59:19,2.317s,FAILED
+,,,,,,,
+Test Cases/managereserve/managereserve01,Edge Chromium 122,Prueba si se pueden crear nuevas reservas,,21-03-2024 13:59:19,21-03-2024 13:59:30,11.227s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 13:59:19,21-03-2024 13:59:22,2.508s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Edge Chromium 122,,,21-03-2024 13:59:22,21-03-2024 13:59:22,0.656s,PASSED
+"click(findTestObject(""Object Repository/button_Log In""))",Edge Chromium 122,,,21-03-2024 13:59:22,21-03-2024 13:59:23,0.545s,PASSED
+"setText(findTestObject(""Object Repository/input_User Name_username""), ""gege"")",Edge Chromium 122,,,21-03-2024 13:59:23,21-03-2024 13:59:24,0.910s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Password_password""), ""tzH6RvlfSTg="")",Edge Chromium 122,,,21-03-2024 13:59:24,21-03-2024 13:59:24,0.311s,PASSED
+"click(findTestObject(""Object Repository/button_Log In""))",Edge Chromium 122,,,21-03-2024 13:59:24,21-03-2024 13:59:24,0.517s,PASSED
+"verifyElementPresent(findTestObject(""SeeIfloged""), 1)",Edge Chromium 122,,,21-03-2024 13:59:24,21-03-2024 13:59:26,1.095s,PASSED
+"click(findTestObject(""Object Repository/a_Add Reservation""))",Edge Chromium 122,,,21-03-2024 13:59:26,21-03-2024 13:59:26,0.311s,PASSED
+"setText(findTestObject(""Object Repository/input_Date_date""), fecha)",Edge Chromium 122,,,21-03-2024 13:59:26,21-03-2024 13:59:27,0.995s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/select_Select OneMilano""), restaurante, true)",Edge Chromium 122,,,21-03-2024 13:59:27,21-03-2024 13:59:28,0.798s,PASSED
+"selectOptionByValue(findTestObject(""select_Select OneOrder 1 - Capacity 1Order 2 - Capacity 2Order 3 - Capacity 3Order 4 - Capacity 4""), mesa, true)",Edge Chromium 122,,,21-03-2024 13:59:28,21-03-2024 13:59:29,1.019s,PASSED
+"click(findTestObject(""Object Repository/button_Create Reservation""))",Edge Chromium 122,,,21-03-2024 13:59:29,21-03-2024 13:59:29,0.501s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/div_Reservation Created""), 1)",Edge Chromium 122,,,21-03-2024 13:59:29,21-03-2024 13:59:30,1.045s,PASSED
+,,,,,,,
+Test Cases/managereserve/managereserve01,Edge Chromium 122,Prueba si se pueden crear nuevas reservas,,21-03-2024 13:59:30,21-03-2024 13:59:42,11.315s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 13:59:30,21-03-2024 13:59:33,2.506s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Edge Chromium 122,,,21-03-2024 13:59:33,21-03-2024 13:59:33,0.677s,PASSED
+"click(findTestObject(""Object Repository/button_Log In""))",Edge Chromium 122,,,21-03-2024 13:59:33,21-03-2024 13:59:34,0.528s,PASSED
+"setText(findTestObject(""Object Repository/input_User Name_username""), ""gege"")",Edge Chromium 122,,,21-03-2024 13:59:34,21-03-2024 13:59:35,0.893s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Password_password""), ""tzH6RvlfSTg="")",Edge Chromium 122,,,21-03-2024 13:59:35,21-03-2024 13:59:35,0.309s,PASSED
+"click(findTestObject(""Object Repository/button_Log In""))",Edge Chromium 122,,,21-03-2024 13:59:35,21-03-2024 13:59:36,0.579s,PASSED
+"verifyElementPresent(findTestObject(""SeeIfloged""), 1)",Edge Chromium 122,,,21-03-2024 13:59:36,21-03-2024 13:59:37,1.150s,PASSED
+"click(findTestObject(""Object Repository/a_Add Reservation""))",Edge Chromium 122,,,21-03-2024 13:59:37,21-03-2024 13:59:37,0.298s,PASSED
+"setText(findTestObject(""Object Repository/input_Date_date""), fecha)",Edge Chromium 122,,,21-03-2024 13:59:37,21-03-2024 13:59:38,0.989s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/select_Select OneMilano""), restaurante, true)",Edge Chromium 122,,,21-03-2024 13:59:38,21-03-2024 13:59:39,0.805s,PASSED
+"selectOptionByValue(findTestObject(""select_Select OneOrder 1 - Capacity 1Order 2 - Capacity 2Order 3 - Capacity 3Order 4 - Capacity 4""), mesa, true)",Edge Chromium 122,,,21-03-2024 13:59:39,21-03-2024 13:59:40,1.023s,PASSED
+"click(findTestObject(""Object Repository/button_Create Reservation""))",Edge Chromium 122,,,21-03-2024 13:59:40,21-03-2024 13:59:41,0.507s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/div_Reservation Created""), 1)",Edge Chromium 122,,,21-03-2024 13:59:41,21-03-2024 13:59:42,1.036s,PASSED
+,,,,,,,
+Test Cases/managereserve/reservecancelation01,Edge Chromium 122,,,21-03-2024 13:59:42,21-03-2024 13:59:50,8.213s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 13:59:42,21-03-2024 13:59:44,2.468s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Edge Chromium 122,,,21-03-2024 13:59:44,21-03-2024 13:59:45,0.737s,PASSED
+"click(findTestObject(""Object Repository/button_LOG IN""))",Edge Chromium 122,,,21-03-2024 13:59:45,21-03-2024 13:59:45,0.536s,PASSED
+"setText(findTestObject(""Object Repository/input_User Name_userName""), ""gege"")",Edge Chromium 122,,,21-03-2024 13:59:45,21-03-2024 13:59:46,0.895s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Password_password""), ""tzH6RvlfSTg="")",Edge Chromium 122,,,21-03-2024 13:59:46,21-03-2024 13:59:47,0.309s,PASSED
+"click(findTestObject(""Object Repository/button_LOG IN""))",Edge Chromium 122,,,21-03-2024 13:59:47,21-03-2024 13:59:47,0.546s,PASSED
+"click(findTestObject(""Object Repository/button_CANCEL""))",Edge Chromium 122,,,21-03-2024 13:59:47,21-03-2024 13:59:48,1.205s,PASSED
+"verifyElementPresent(findTestObject(""div_Status Updated""), 1)",Edge Chromium 122,,,21-03-2024 13:59:48,21-03-2024 13:59:50,1.261s,PASSED
+closeBrowser(),Edge Chromium 122,,,21-03-2024 13:59:50,21-03-2024 13:59:50,0.209s,PASSED

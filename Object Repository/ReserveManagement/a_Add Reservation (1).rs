@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Add Reservation (1)</name>
+   <tag></tag>
+   <elementGuidId>6a04152c-0742-4f15-b1f1-a4d910118b6b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Add Reservation')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>1a46f947-b5a5-437e-bdeb-73935a99c5e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>link</value>
+      <webElementGuid>f7f0ba71-f205-4699-8e69-d3a1397f9ec9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/home/reservation/new</value>
+      <webElementGuid>9458c408-1ea8-402f-94ae-2e398640c9ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add Reservation</value>
+      <webElementGuid>2c2c7d2a-bd17-4a14-986f-4cd45e6b0913</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;__className_5f06f5&quot;]/div[@class=&quot;relative h-screen&quot;]/div[@class=&quot;flex items-center bg-violet-950 justify-between px-10 text-white py-3&quot;]/div[@class=&quot;flex w-[70%] font-[400] gap-16&quot;]/a[@class=&quot;link&quot;]</value>
+      <webElementGuid>106ca631-a25c-4d90-a64a-f0891d085817</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Add Reservation')]</value>
+      <webElementGuid>428bd671-f282-4f96-9da1-e67997c24431</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/home/reservation/new')]</value>
+      <webElementGuid>7cd2db8c-e85e-421e-ba9f-3f73bcd0a4ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]</value>
+      <webElementGuid>d9d2f3ba-0f64-4e6c-8a73-de49d3008f41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/home/reservation/new' and (text() = 'Add Reservation' or . = 'Add Reservation')]</value>
+      <webElementGuid>3799e8d9-855e-4529-8bda-2860a8501a8e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

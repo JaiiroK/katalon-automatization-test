@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login,,,,21-03-2024 11:56:57,21-03-2024 11:57:04,7.075s,FAILED
+,,,,,,,
+Test Cases/login/login01,,,,21-03-2024 11:56:57,21-03-2024 11:57:00,2.737s,FAILED
+"openBrowser("""")",,,,21-03-2024 11:56:57,21-03-2024 11:57:00,2.525s,FAILED
+,,,,,,,
+Test Cases/login/login01,,,,21-03-2024 11:57:00,21-03-2024 11:57:01,0.887s,FAILED
+"openBrowser("""")",,,,21-03-2024 11:57:00,21-03-2024 11:57:01,0.859s,FAILED
+,,,,,,,
+Test Cases/login/login01,,,,21-03-2024 11:57:01,21-03-2024 11:57:02,1.045s,FAILED
+"openBrowser("""")",,,,21-03-2024 11:57:01,21-03-2024 11:57:02,1.015s,FAILED
+,,,,,,,
+Test Cases/login/login01,,,,21-03-2024 11:57:02,21-03-2024 11:57:03,1.064s,FAILED
+"openBrowser("""")",,,,21-03-2024 11:57:02,21-03-2024 11:57:03,1.043s,FAILED
+,,,,,,,
+Test Cases/login/login01,,,,21-03-2024 11:57:03,21-03-2024 11:57:04,1.054s,FAILED
+"openBrowser("""")",,,,21-03-2024 11:57:03,21-03-2024 11:57:04,1.035s,FAILED

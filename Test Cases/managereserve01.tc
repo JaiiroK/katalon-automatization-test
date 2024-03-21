@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Prueba si se pueden crear nuevas reservas</description>
-   <name>managereserve01</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>8a2de324-160e-45ff-b747-ad306463dff7</testCaseGuid>
-</TestCaseEntity>

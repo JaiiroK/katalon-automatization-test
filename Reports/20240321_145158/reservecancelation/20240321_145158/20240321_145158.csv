@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+reservecancelation,Edge Chromium 122,,,21-03-2024 14:52:07,21-03-2024 14:52:17,10.342s,PASSED
+,,,,,,,
+Test Cases/login/login01,Edge Chromium 122,,,21-03-2024 14:52:07,21-03-2024 14:52:15,8.406s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 14:52:07,21-03-2024 14:52:11,3.529s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Edge Chromium 122,,,21-03-2024 14:52:11,21-03-2024 14:52:11,0.694s,PASSED
+"click(findTestObject(""Login/button_LOG IN""))",Edge Chromium 122,,,21-03-2024 14:52:11,21-03-2024 14:52:12,0.519s,PASSED
+"setText(findTestObject(""Login/input_User Name_username""), strUsername)",Edge Chromium 122,,,21-03-2024 14:52:12,21-03-2024 14:52:13,0.976s,PASSED
+"setEncryptedText(findTestObject(""Login/input_Password_password""), strPassword)",Edge Chromium 122,,,21-03-2024 14:52:13,21-03-2024 14:52:13,0.343s,PASSED
+"click(findTestObject(""Login/button_Log In (1)""))",Edge Chromium 122,,,21-03-2024 14:52:13,21-03-2024 14:52:14,0.539s,PASSED
+"verifyElementPresent(findTestObject(""SeeIfloged""), 1)",Edge Chromium 122,,,21-03-2024 14:52:14,21-03-2024 14:52:15,1.521s,PASSED
+,,,,,,,
+Test Cases/managereserve/reservecancelation01,Edge Chromium 122,,,21-03-2024 14:52:15,21-03-2024 14:52:17,1.772s,PASSED
+"click(findTestObject(""Object Repository/cosas/button_CANCEL""))",Edge Chromium 122,,,21-03-2024 14:52:15,21-03-2024 14:52:16,0.324s,PASSED
+"verifyElementPresent(findTestObject(""cosas/div_Status Updated""), 1)",Edge Chromium 122,,,21-03-2024 14:52:16,21-03-2024 14:52:17,1.378s,PASSED

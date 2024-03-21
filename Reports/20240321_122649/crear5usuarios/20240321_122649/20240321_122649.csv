@@ -1,0 +1,82 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+crear5usuarios,Edge Chromium 122,,,21-03-2024 12:26:57,21-03-2024 12:27:49,51.794s,PASSED
+,,,,,,,
+Test Cases/newuser/newuser01,Edge Chromium 122,Creacion de usuario,,21-03-2024 12:26:57,21-03-2024 12:27:09,11.299s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 12:26:58,21-03-2024 12:27:01,2.970s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Edge Chromium 122,,,21-03-2024 12:27:01,21-03-2024 12:27:01,0.644s,PASSED
+"click(findTestObject(""Object Repository/a_Sign Up""))",Edge Chromium 122,,,21-03-2024 12:27:01,21-03-2024 12:27:02,0.501s,PASSED
+"setText(findTestObject(""Object Repository/input_Name_name""), name)",Edge Chromium 122,,,21-03-2024 12:27:02,21-03-2024 12:27:03,0.912s,PASSED
+"setText(findTestObject(""Object Repository/input_Last Name_lastName""), lastname)",Edge Chromium 122,,,21-03-2024 12:27:03,21-03-2024 12:27:03,0.547s,PASSED
+"setText(findTestObject(""Object Repository/input_Phone_phone""), phone)",Edge Chromium 122,,,21-03-2024 12:27:03,21-03-2024 12:27:04,0.635s,PASSED
+"setText(findTestObject(""Object Repository/input_Email_email""), email)",Edge Chromium 122,,,21-03-2024 12:27:04,21-03-2024 12:27:05,0.649s,PASSED
+"setText(findTestObject(""Object Repository/input_User Name_username""), username)",Edge Chromium 122,,,21-03-2024 12:27:05,21-03-2024 12:27:05,0.592s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Password_password""), password)",Edge Chromium 122,,,21-03-2024 12:27:05,21-03-2024 12:27:06,0.329s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Confirm Password_confirmPassword""), password)",Edge Chromium 122,,,21-03-2024 12:27:06,21-03-2024 12:27:06,0.525s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/select_Select OneUserRestaurant""), ""user"", true)",Edge Chromium 122,,,21-03-2024 12:27:06,21-03-2024 12:27:07,1.075s,PASSED
+"click(findTestObject(""button_Create Acccount""))",Edge Chromium 122,,,21-03-2024 12:27:07,21-03-2024 12:27:07,0.303s,PASSED
+"verifyElementPresent(findTestObject(""div_Your user is created""), 1)",Edge Chromium 122,,,21-03-2024 12:27:07,21-03-2024 12:27:09,1.156s,PASSED
+closeBrowser(),Edge Chromium 122,,,21-03-2024 12:27:09,21-03-2024 12:27:09,0.205s,PASSED
+,,,,,,,
+Test Cases/newuser/newuser01,Edge Chromium 122,Creacion de usuario,,21-03-2024 12:27:09,21-03-2024 12:27:19,10.223s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 12:27:09,21-03-2024 12:27:11,2.571s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Edge Chromium 122,,,21-03-2024 12:27:11,21-03-2024 12:27:12,0.722s,PASSED
+"click(findTestObject(""Object Repository/a_Sign Up""))",Edge Chromium 122,,,21-03-2024 12:27:12,21-03-2024 12:27:13,0.536s,PASSED
+"setText(findTestObject(""Object Repository/input_Name_name""), name)",Edge Chromium 122,,,21-03-2024 12:27:13,21-03-2024 12:27:14,0.879s,PASSED
+"setText(findTestObject(""Object Repository/input_Last Name_lastName""), lastname)",Edge Chromium 122,,,21-03-2024 12:27:14,21-03-2024 12:27:14,0.543s,PASSED
+"setText(findTestObject(""Object Repository/input_Phone_phone""), phone)",Edge Chromium 122,,,21-03-2024 12:27:14,21-03-2024 12:27:15,0.592s,PASSED
+"setText(findTestObject(""Object Repository/input_Email_email""), email)",Edge Chromium 122,,,21-03-2024 12:27:15,21-03-2024 12:27:15,0.615s,PASSED
+"setText(findTestObject(""Object Repository/input_User Name_username""), username)",Edge Chromium 122,,,21-03-2024 12:27:15,21-03-2024 12:27:16,0.571s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Password_password""), password)",Edge Chromium 122,,,21-03-2024 12:27:16,21-03-2024 12:27:16,0.308s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Confirm Password_confirmPassword""), password)",Edge Chromium 122,,,21-03-2024 12:27:16,21-03-2024 12:27:17,0.533s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/select_Select OneUserRestaurant""), ""user"", true)",Edge Chromium 122,,,21-03-2024 12:27:17,21-03-2024 12:27:18,1.031s,PASSED
+"click(findTestObject(""button_Create Acccount""))",Edge Chromium 122,,,21-03-2024 12:27:18,21-03-2024 12:27:18,0.300s,PASSED
+"verifyElementPresent(findTestObject(""div_Your user is created""), 1)",Edge Chromium 122,,,21-03-2024 12:27:18,21-03-2024 12:27:19,0.795s,PASSED
+closeBrowser(),Edge Chromium 122,,,21-03-2024 12:27:19,21-03-2024 12:27:19,0.207s,PASSED
+,,,,,,,
+Test Cases/newuser/newuser01,Edge Chromium 122,Creacion de usuario,,21-03-2024 12:27:19,21-03-2024 12:27:29,9.848s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 12:27:19,21-03-2024 12:27:21,2.268s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Edge Chromium 122,,,21-03-2024 12:27:21,21-03-2024 12:27:22,0.682s,PASSED
+"click(findTestObject(""Object Repository/a_Sign Up""))",Edge Chromium 122,,,21-03-2024 12:27:22,21-03-2024 12:27:23,0.512s,PASSED
+"setText(findTestObject(""Object Repository/input_Name_name""), name)",Edge Chromium 122,,,21-03-2024 12:27:23,21-03-2024 12:27:23,0.890s,PASSED
+"setText(findTestObject(""Object Repository/input_Last Name_lastName""), lastname)",Edge Chromium 122,,,21-03-2024 12:27:23,21-03-2024 12:27:24,0.566s,PASSED
+"setText(findTestObject(""Object Repository/input_Phone_phone""), phone)",Edge Chromium 122,,,21-03-2024 12:27:24,21-03-2024 12:27:25,0.632s,PASSED
+"setText(findTestObject(""Object Repository/input_Email_email""), email)",Edge Chromium 122,,,21-03-2024 12:27:25,21-03-2024 12:27:25,0.558s,PASSED
+"setText(findTestObject(""Object Repository/input_User Name_username""), username)",Edge Chromium 122,,,21-03-2024 12:27:25,21-03-2024 12:27:26,0.548s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Password_password""), password)",Edge Chromium 122,,,21-03-2024 12:27:26,21-03-2024 12:27:26,0.307s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Confirm Password_confirmPassword""), password)",Edge Chromium 122,,,21-03-2024 12:27:26,21-03-2024 12:27:27,0.525s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/select_Select OneUserRestaurant""), ""user"", true)",Edge Chromium 122,,,21-03-2024 12:27:27,21-03-2024 12:27:28,1.023s,PASSED
+"click(findTestObject(""button_Create Acccount""))",Edge Chromium 122,,,21-03-2024 12:27:28,21-03-2024 12:27:28,0.286s,PASSED
+"verifyElementPresent(findTestObject(""div_Your user is created""), 1)",Edge Chromium 122,,,21-03-2024 12:27:28,21-03-2024 12:27:29,0.844s,PASSED
+closeBrowser(),Edge Chromium 122,,,21-03-2024 12:27:29,21-03-2024 12:27:29,0.191s,PASSED
+,,,,,,,
+Test Cases/newuser/newuser01,Edge Chromium 122,Creacion de usuario,,21-03-2024 12:27:29,21-03-2024 12:27:39,9.883s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 12:27:29,21-03-2024 12:27:31,2.301s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Edge Chromium 122,,,21-03-2024 12:27:31,21-03-2024 12:27:32,0.638s,PASSED
+"click(findTestObject(""Object Repository/a_Sign Up""))",Edge Chromium 122,,,21-03-2024 12:27:32,21-03-2024 12:27:33,0.531s,PASSED
+"setText(findTestObject(""Object Repository/input_Name_name""), name)",Edge Chromium 122,,,21-03-2024 12:27:33,21-03-2024 12:27:33,0.879s,PASSED
+"setText(findTestObject(""Object Repository/input_Last Name_lastName""), lastname)",Edge Chromium 122,,,21-03-2024 12:27:33,21-03-2024 12:27:34,0.552s,PASSED
+"setText(findTestObject(""Object Repository/input_Phone_phone""), phone)",Edge Chromium 122,,,21-03-2024 12:27:34,21-03-2024 12:27:35,0.550s,PASSED
+"setText(findTestObject(""Object Repository/input_Email_email""), email)",Edge Chromium 122,,,21-03-2024 12:27:35,21-03-2024 12:27:35,0.580s,PASSED
+"setText(findTestObject(""Object Repository/input_User Name_username""), username)",Edge Chromium 122,,,21-03-2024 12:27:35,21-03-2024 12:27:36,0.628s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Password_password""), password)",Edge Chromium 122,,,21-03-2024 12:27:36,21-03-2024 12:27:36,0.313s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Confirm Password_confirmPassword""), password)",Edge Chromium 122,,,21-03-2024 12:27:36,21-03-2024 12:27:37,0.535s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/select_Select OneUserRestaurant""), ""user"", true)",Edge Chromium 122,,,21-03-2024 12:27:37,21-03-2024 12:27:38,1.019s,PASSED
+"click(findTestObject(""button_Create Acccount""))",Edge Chromium 122,,,21-03-2024 12:27:38,21-03-2024 12:27:38,0.283s,PASSED
+"verifyElementPresent(findTestObject(""div_Your user is created""), 1)",Edge Chromium 122,,,21-03-2024 12:27:38,21-03-2024 12:27:39,0.833s,PASSED
+closeBrowser(),Edge Chromium 122,,,21-03-2024 12:27:39,21-03-2024 12:27:39,0.206s,PASSED
+,,,,,,,
+Test Cases/newuser/newuser01,Edge Chromium 122,Creacion de usuario,,21-03-2024 12:27:39,21-03-2024 12:27:49,10.095s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 12:27:39,21-03-2024 12:27:42,2.581s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Edge Chromium 122,,,21-03-2024 12:27:42,21-03-2024 12:27:42,0.652s,PASSED
+"click(findTestObject(""Object Repository/a_Sign Up""))",Edge Chromium 122,,,21-03-2024 12:27:42,21-03-2024 12:27:43,0.523s,PASSED
+"setText(findTestObject(""Object Repository/input_Name_name""), name)",Edge Chromium 122,,,21-03-2024 12:27:43,21-03-2024 12:27:44,0.891s,PASSED
+"setText(findTestObject(""Object Repository/input_Last Name_lastName""), lastname)",Edge Chromium 122,,,21-03-2024 12:27:44,21-03-2024 12:27:44,0.548s,PASSED
+"setText(findTestObject(""Object Repository/input_Phone_phone""), phone)",Edge Chromium 122,,,21-03-2024 12:27:44,21-03-2024 12:27:45,0.608s,PASSED
+"setText(findTestObject(""Object Repository/input_Email_email""), email)",Edge Chromium 122,,,21-03-2024 12:27:45,21-03-2024 12:27:45,0.624s,PASSED
+"setText(findTestObject(""Object Repository/input_User Name_username""), username)",Edge Chromium 122,,,21-03-2024 12:27:45,21-03-2024 12:27:46,0.548s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Password_password""), password)",Edge Chromium 122,,,21-03-2024 12:27:46,21-03-2024 12:27:46,0.298s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Confirm Password_confirmPassword""), password)",Edge Chromium 122,,,21-03-2024 12:27:46,21-03-2024 12:27:47,0.517s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/select_Select OneUserRestaurant""), ""user"", true)",Edge Chromium 122,,,21-03-2024 12:27:47,21-03-2024 12:27:48,1.012s,PASSED
+"click(findTestObject(""button_Create Acccount""))",Edge Chromium 122,,,21-03-2024 12:27:48,21-03-2024 12:27:48,0.285s,PASSED
+"verifyElementPresent(findTestObject(""div_Your user is created""), 1)",Edge Chromium 122,,,21-03-2024 12:27:48,21-03-2024 12:27:49,0.802s,PASSED
+closeBrowser(),Edge Chromium 122,,,21-03-2024 12:27:49,21-03-2024 12:27:49,0.190s,PASSED

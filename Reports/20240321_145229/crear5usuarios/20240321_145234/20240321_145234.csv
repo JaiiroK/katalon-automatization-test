@@ -1,0 +1,77 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+crear5usuarios,Edge Chromium 122,,,21-03-2024 14:53:19,21-03-2024 14:54:20,1m - 1.017s,FAILED
+,,,,,,,
+Test Cases/newuser/newuser01,Edge Chromium 122,Creacion de usuario,,21-03-2024 14:53:19,21-03-2024 14:53:32,12.876s,FAILED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 14:53:19,21-03-2024 14:53:23,3.441s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Edge Chromium 122,,,21-03-2024 14:53:23,21-03-2024 14:53:24,0.839s,PASSED
+"click(findTestObject(""Object Repository/cosas/a_Sign Up""))",Edge Chromium 122,,,21-03-2024 14:53:24,21-03-2024 14:53:24,0.514s,PASSED
+"setText(findTestObject(""Object Repository/cosas/input_Name_name""), name)",Edge Chromium 122,,,21-03-2024 14:53:24,21-03-2024 14:53:25,0.830s,PASSED
+"setText(findTestObject(""Object Repository/cosas/input_Last Name_lastName""), lastname)",Edge Chromium 122,,,21-03-2024 14:53:25,21-03-2024 14:53:26,0.566s,PASSED
+"setText(findTestObject(""SingIn/input_Phone_phone""), phone)",Edge Chromium 122,,,21-03-2024 14:53:26,21-03-2024 14:53:26,0.644s,PASSED
+"setText(findTestObject(""SingIn/input_Email_email""), email)",Edge Chromium 122,,,21-03-2024 14:53:26,21-03-2024 14:53:27,0.627s,PASSED
+"setText(findTestObject(""SingIn/input_User Name_userName""), username)",Edge Chromium 122,,,21-03-2024 14:53:27,21-03-2024 14:53:27,0.585s,PASSED
+"setEncryptedText(findTestObject(""SingIn/input_Password_password""), password)",Edge Chromium 122,,,21-03-2024 14:53:27,21-03-2024 14:53:28,0.345s,PASSED
+"setEncryptedText(findTestObject(""SingIn/input_Confirm Password_confirmPassword""), password)",Edge Chromium 122,,,21-03-2024 14:53:28,21-03-2024 14:53:28,0.542s,PASSED
+"selectOptionByValue(findTestObject(""SingIn/select_Select OneUserRestaurant""), ""user"", true)",Edge Chromium 122,,,21-03-2024 14:53:28,21-03-2024 14:53:29,1.052s,PASSED
+"click(findTestObject(""cosas/button_Create Acccount""))",Edge Chromium 122,,,21-03-2024 14:53:29,21-03-2024 14:53:30,0.294s,PASSED
+"verifyElementPresent(findTestObject(""cosas/div_Your user is created""), 1)",Edge Chromium 122,,,21-03-2024 14:53:30,21-03-2024 14:53:32,2.330s,FAILED
+,,,,,,,
+Test Cases/newuser/newuser01,Edge Chromium 122,Creacion de usuario,,21-03-2024 14:53:32,21-03-2024 14:53:44,12.176s,FAILED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 14:53:32,21-03-2024 14:53:35,2.792s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Edge Chromium 122,,,21-03-2024 14:53:35,21-03-2024 14:53:36,0.762s,PASSED
+"click(findTestObject(""Object Repository/cosas/a_Sign Up""))",Edge Chromium 122,,,21-03-2024 14:53:36,21-03-2024 14:53:36,0.558s,PASSED
+"setText(findTestObject(""Object Repository/cosas/input_Name_name""), name)",Edge Chromium 122,,,21-03-2024 14:53:36,21-03-2024 14:53:37,0.920s,PASSED
+"setText(findTestObject(""Object Repository/cosas/input_Last Name_lastName""), lastname)",Edge Chromium 122,,,21-03-2024 14:53:37,21-03-2024 14:53:38,0.561s,PASSED
+"setText(findTestObject(""SingIn/input_Phone_phone""), phone)",Edge Chromium 122,,,21-03-2024 14:53:38,21-03-2024 14:53:38,0.695s,PASSED
+"setText(findTestObject(""SingIn/input_Email_email""), email)",Edge Chromium 122,,,21-03-2024 14:53:38,21-03-2024 14:53:39,0.684s,PASSED
+"setText(findTestObject(""SingIn/input_User Name_userName""), username)",Edge Chromium 122,,,21-03-2024 14:53:39,21-03-2024 14:53:40,0.602s,PASSED
+"setEncryptedText(findTestObject(""SingIn/input_Password_password""), password)",Edge Chromium 122,,,21-03-2024 14:53:40,21-03-2024 14:53:40,0.319s,PASSED
+"setEncryptedText(findTestObject(""SingIn/input_Confirm Password_confirmPassword""), password)",Edge Chromium 122,,,21-03-2024 14:53:40,21-03-2024 14:53:41,0.530s,PASSED
+"selectOptionByValue(findTestObject(""SingIn/select_Select OneUserRestaurant""), ""user"", true)",Edge Chromium 122,,,21-03-2024 14:53:41,21-03-2024 14:53:42,1.021s,PASSED
+"click(findTestObject(""cosas/button_Create Acccount""))",Edge Chromium 122,,,21-03-2024 14:53:42,21-03-2024 14:53:42,0.286s,PASSED
+"verifyElementPresent(findTestObject(""cosas/div_Your user is created""), 1)",Edge Chromium 122,,,21-03-2024 14:53:42,21-03-2024 14:53:44,2.421s,FAILED
+,,,,,,,
+Test Cases/newuser/newuser01,Edge Chromium 122,Creacion de usuario,,21-03-2024 14:53:44,21-03-2024 14:53:56,11.912s,FAILED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 14:53:44,21-03-2024 14:53:47,2.828s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Edge Chromium 122,,,21-03-2024 14:53:47,21-03-2024 14:53:48,0.719s,PASSED
+"click(findTestObject(""Object Repository/cosas/a_Sign Up""))",Edge Chromium 122,,,21-03-2024 14:53:48,21-03-2024 14:53:48,0.548s,PASSED
+"setText(findTestObject(""Object Repository/cosas/input_Name_name""), name)",Edge Chromium 122,,,21-03-2024 14:53:48,21-03-2024 14:53:49,0.808s,PASSED
+"setText(findTestObject(""Object Repository/cosas/input_Last Name_lastName""), lastname)",Edge Chromium 122,,,21-03-2024 14:53:49,21-03-2024 14:53:50,0.566s,PASSED
+"setText(findTestObject(""SingIn/input_Phone_phone""), phone)",Edge Chromium 122,,,21-03-2024 14:53:50,21-03-2024 14:53:50,0.614s,PASSED
+"setText(findTestObject(""SingIn/input_Email_email""), email)",Edge Chromium 122,,,21-03-2024 14:53:50,21-03-2024 14:53:51,0.661s,PASSED
+"setText(findTestObject(""SingIn/input_User Name_userName""), username)",Edge Chromium 122,,,21-03-2024 14:53:51,21-03-2024 14:53:52,0.598s,PASSED
+"setEncryptedText(findTestObject(""SingIn/input_Password_password""), password)",Edge Chromium 122,,,21-03-2024 14:53:52,21-03-2024 14:53:52,0.321s,PASSED
+"setEncryptedText(findTestObject(""SingIn/input_Confirm Password_confirmPassword""), password)",Edge Chromium 122,,,21-03-2024 14:53:52,21-03-2024 14:53:53,0.527s,PASSED
+"selectOptionByValue(findTestObject(""SingIn/select_Select OneUserRestaurant""), ""user"", true)",Edge Chromium 122,,,21-03-2024 14:53:53,21-03-2024 14:53:54,1.018s,PASSED
+"click(findTestObject(""cosas/button_Create Acccount""))",Edge Chromium 122,,,21-03-2024 14:53:54,21-03-2024 14:53:54,0.290s,PASSED
+"verifyElementPresent(findTestObject(""cosas/div_Your user is created""), 1)",Edge Chromium 122,,,21-03-2024 14:53:54,21-03-2024 14:53:56,2.395s,FAILED
+,,,,,,,
+Test Cases/newuser/newuser01,Edge Chromium 122,Creacion de usuario,,21-03-2024 14:53:56,21-03-2024 14:54:08,12.115s,FAILED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 14:53:56,21-03-2024 14:53:59,2.796s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Edge Chromium 122,,,21-03-2024 14:53:59,21-03-2024 14:54:00,0.770s,PASSED
+"click(findTestObject(""Object Repository/cosas/a_Sign Up""))",Edge Chromium 122,,,21-03-2024 14:54:00,21-03-2024 14:54:00,0.558s,PASSED
+"setText(findTestObject(""Object Repository/cosas/input_Name_name""), name)",Edge Chromium 122,,,21-03-2024 14:54:00,21-03-2024 14:54:01,0.908s,PASSED
+"setText(findTestObject(""Object Repository/cosas/input_Last Name_lastName""), lastname)",Edge Chromium 122,,,21-03-2024 14:54:01,21-03-2024 14:54:02,0.553s,PASSED
+"setText(findTestObject(""SingIn/input_Phone_phone""), phone)",Edge Chromium 122,,,21-03-2024 14:54:02,21-03-2024 14:54:03,0.640s,PASSED
+"setText(findTestObject(""SingIn/input_Email_email""), email)",Edge Chromium 122,,,21-03-2024 14:54:03,21-03-2024 14:54:03,0.655s,PASSED
+"setText(findTestObject(""SingIn/input_User Name_userName""), username)",Edge Chromium 122,,,21-03-2024 14:54:03,21-03-2024 14:54:04,0.586s,PASSED
+"setEncryptedText(findTestObject(""SingIn/input_Password_password""), password)",Edge Chromium 122,,,21-03-2024 14:54:04,21-03-2024 14:54:04,0.322s,PASSED
+"setEncryptedText(findTestObject(""SingIn/input_Confirm Password_confirmPassword""), password)",Edge Chromium 122,,,21-03-2024 14:54:04,21-03-2024 14:54:05,0.542s,PASSED
+"selectOptionByValue(findTestObject(""SingIn/select_Select OneUserRestaurant""), ""user"", true)",Edge Chromium 122,,,21-03-2024 14:54:05,21-03-2024 14:54:06,1.058s,PASSED
+"click(findTestObject(""cosas/button_Create Acccount""))",Edge Chromium 122,,,21-03-2024 14:54:06,21-03-2024 14:54:06,0.305s,PASSED
+"verifyElementPresent(findTestObject(""cosas/div_Your user is created""), 1)",Edge Chromium 122,,,21-03-2024 14:54:06,21-03-2024 14:54:08,2.393s,FAILED
+,,,,,,,
+Test Cases/newuser/newuser01,Edge Chromium 122,Creacion de usuario,,21-03-2024 14:54:08,21-03-2024 14:54:20,11.444s,FAILED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 14:54:08,21-03-2024 14:54:11,2.468s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Edge Chromium 122,,,21-03-2024 14:54:11,21-03-2024 14:54:12,0.714s,PASSED
+"click(findTestObject(""Object Repository/cosas/a_Sign Up""))",Edge Chromium 122,,,21-03-2024 14:54:12,21-03-2024 14:54:12,0.542s,PASSED
+"setText(findTestObject(""Object Repository/cosas/input_Name_name""), name)",Edge Chromium 122,,,21-03-2024 14:54:12,21-03-2024 14:54:13,0.810s,PASSED
+"setText(findTestObject(""Object Repository/cosas/input_Last Name_lastName""), lastname)",Edge Chromium 122,,,21-03-2024 14:54:13,21-03-2024 14:54:14,0.554s,PASSED
+"setText(findTestObject(""SingIn/input_Phone_phone""), phone)",Edge Chromium 122,,,21-03-2024 14:54:14,21-03-2024 14:54:14,0.608s,PASSED
+"setText(findTestObject(""SingIn/input_Email_email""), email)",Edge Chromium 122,,,21-03-2024 14:54:14,21-03-2024 14:54:15,0.567s,PASSED
+"setText(findTestObject(""SingIn/input_User Name_userName""), username)",Edge Chromium 122,,,21-03-2024 14:54:15,21-03-2024 14:54:15,0.617s,PASSED
+"setEncryptedText(findTestObject(""SingIn/input_Password_password""), password)",Edge Chromium 122,,,21-03-2024 14:54:15,21-03-2024 14:54:16,0.310s,PASSED
+"setEncryptedText(findTestObject(""SingIn/input_Confirm Password_confirmPassword""), password)",Edge Chromium 122,,,21-03-2024 14:54:16,21-03-2024 14:54:16,0.525s,PASSED
+"selectOptionByValue(findTestObject(""SingIn/select_Select OneUserRestaurant""), ""user"", true)",Edge Chromium 122,,,21-03-2024 14:54:16,21-03-2024 14:54:17,1.037s,PASSED
+"click(findTestObject(""cosas/button_Create Acccount""))",Edge Chromium 122,,,21-03-2024 14:54:17,21-03-2024 14:54:18,0.284s,PASSED
+"verifyElementPresent(findTestObject(""cosas/div_Your user is created""), 1)",Edge Chromium 122,,,21-03-2024 14:54:18,21-03-2024 14:54:20,2.388s,FAILED

@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+crear5usuarios,Edge Chromium 122,,,21-03-2024 12:24:57,21-03-2024 12:25:12,14.805s,FAILED
+,,,,,,,
+Test Cases/newuser/newuser01,Edge Chromium 122,Creacion de usuario,,21-03-2024 12:24:57,21-03-2024 12:25:01,3.795s,FAILED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 12:24:58,21-03-2024 12:25:01,3.350s,PASSED
+acceptAlert(),Edge Chromium 122,,,21-03-2024 12:25:01,21-03-2024 12:25:01,0.197s,FAILED
+,,,,,,,
+Test Cases/newuser/newuser01,Edge Chromium 122,Creacion de usuario,,21-03-2024 12:25:01,21-03-2024 12:25:04,2.668s,FAILED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 12:25:01,21-03-2024 12:25:04,2.463s,PASSED
+acceptAlert(),Edge Chromium 122,,,21-03-2024 12:25:04,21-03-2024 12:25:04,0.176s,FAILED
+,,,,,,,
+Test Cases/newuser/newuser01,Edge Chromium 122,Creacion de usuario,,21-03-2024 12:25:04,21-03-2024 12:25:07,2.641s,FAILED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 12:25:04,21-03-2024 12:25:06,2.454s,PASSED
+acceptAlert(),Edge Chromium 122,,,21-03-2024 12:25:06,21-03-2024 12:25:07,0.162s,FAILED
+,,,,,,,
+Test Cases/newuser/newuser01,Edge Chromium 122,Creacion de usuario,,21-03-2024 12:25:07,21-03-2024 12:25:09,2.580s,FAILED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 12:25:07,21-03-2024 12:25:09,2.420s,PASSED
+acceptAlert(),Edge Chromium 122,,,21-03-2024 12:25:09,21-03-2024 12:25:09,0.144s,FAILED
+,,,,,,,
+Test Cases/newuser/newuser01,Edge Chromium 122,Creacion de usuario,,21-03-2024 12:25:09,21-03-2024 12:25:12,2.631s,FAILED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 12:25:09,21-03-2024 12:25:12,2.422s,PASSED
+acceptAlert(),Edge Chromium 122,,,21-03-2024 12:25:12,21-03-2024 12:25:12,0.192s,FAILED

@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+managereserve01,Edge Chromium 122,,,21-03-2024 14:16:58,21-03-2024 14:17:12,14.013s,FAILED
+,,,,,,,
+Test Cases/login/login01,Edge Chromium 122,,,21-03-2024 14:16:58,21-03-2024 14:17:06,7.607s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 14:16:58,21-03-2024 14:17:02,3.408s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Edge Chromium 122,,,21-03-2024 14:17:02,21-03-2024 14:17:02,0.642s,PASSED
+"click(findTestObject(""Object Repository/button_Log In""))",Edge Chromium 122,,,21-03-2024 14:17:02,21-03-2024 14:17:03,0.563s,PASSED
+"setText(findTestObject(""Object Repository/input_User Name_username""), strUsername)",Edge Chromium 122,,,21-03-2024 14:17:03,21-03-2024 14:17:04,0.944s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Password_password""), strPassword)",Edge Chromium 122,,,21-03-2024 14:17:04,21-03-2024 14:17:04,0.337s,PASSED
+"click(findTestObject(""Object Repository/button_Log In""))",Edge Chromium 122,,,21-03-2024 14:17:04,21-03-2024 14:17:05,0.554s,PASSED
+"verifyElementPresent(findTestObject(""SeeIfloged""), 1)",Edge Chromium 122,,,21-03-2024 14:17:05,21-03-2024 14:17:06,0.751s,PASSED
+,,,,,,,
+Test Cases/managereserve/managereserve01,Edge Chromium 122,Prueba si se pueden crear nuevas reservas,,21-03-2024 14:17:06,21-03-2024 14:17:12,6.240s,FAILED
+"click(findTestObject(""Object Repository/a_Add Reservation""))",Edge Chromium 122,,,21-03-2024 14:17:06,21-03-2024 14:17:06,0.363s,PASSED
+"setText(findTestObject(""Object Repository/input_Date_date""), fecha)",Edge Chromium 122,,,21-03-2024 14:17:06,21-03-2024 14:17:07,1.002s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/select_Select OneMilano""), restaurante, true)",Edge Chromium 122,,,21-03-2024 14:17:07,21-03-2024 14:17:08,0.845s,PASSED
+"selectOptionByValue(findTestObject(""select_Select OneOrder 1 - Capacity 1Order 2 - Capacity 2Order 3 - Capacity 3Order 4 - Capacity 4""), mesa, true)",Edge Chromium 122,,,21-03-2024 14:17:08,21-03-2024 14:17:09,1.032s,PASSED
+"click(findTestObject(""Object Repository/button_Create Reservation""))",Edge Chromium 122,,,21-03-2024 14:17:09,21-03-2024 14:17:09,0.514s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/div_Reservation Created""), 1)",Edge Chromium 122,,,21-03-2024 14:17:09,21-03-2024 14:17:12,2.330s,FAILED

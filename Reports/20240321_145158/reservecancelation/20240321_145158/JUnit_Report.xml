@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="reservecancelation" time="10.342" tests="2" failures="0" errors="0">
+   <testsuite name="reservecancelation" tests="2" failures="0" errors="0" time="10.342" skipped="0" timestamp="21-03-2024T14:52:07" hostname="Michael - DESKTOP-CAK74HU" id="Test Suites/reservecancelation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Michael\\git\\katalon-automatization-test\\Reports\\20240321_145158\\reservecancelation\\20240321_145158"/>
+         <property name="logFiles" value="C:\\Users\\Michael\\git\\katalon-automatization-test\\Reports\\20240321_145158\\reservecancelation\\20240321_145158\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Michael - DESKTOP-CAK74HU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Edge Chromium 122"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="7fe27298d260fec081d0d07fb73778fe"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/login/login01" time="8.406" classname="Test Cases/login/login01" status="PASSED">
+         <system-out><![CDATA[21-03-2024T14:52:07 - [TEST_CASE][PASSED] - Test Cases/login/login01: Test Cases/login/login01
+
+21-03-2024T14:52:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-03-2024T14:52:07 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+21-03-2024T14:52:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-03-2024T14:52:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-03-2024T14:52:11 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/"): Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T14:52:11 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T14:52:11 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_LOG IN")): Object: 'Object Repository/Login/button_LOG IN' is clicked on
+
+21-03-2024T14:52:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_LOG IN' is clicked on
+
+21-03-2024T14:52:12 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_User Name_username"), strUsername): Text 'gege' is set on object 'Object Repository/Login/input_User Name_username'
+
+21-03-2024T14:52:13 - [MESSAGE][PASSED] - Text 'gege' is set on object 'Object Repository/Login/input_User Name_username'
+
+21-03-2024T14:52:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_Password_password"), strPassword): Text ****** has been set on object 'Object Repository/Login/input_Password_password'
+
+21-03-2024T14:52:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password_password'
+
+21-03-2024T14:52:13 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Log In (1)")): Object: 'Object Repository/Login/button_Log In (1)' is clicked on
+
+21-03-2024T14:52:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Log In (1)' is clicked on
+
+21-03-2024T14:52:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SeeIfloged"), 1): Object 'Object Repository/SeeIfloged' is present
+
+21-03-2024T14:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/SeeIfloged' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/managereserve/reservecancelation01" time="1.772" classname="Test Cases/managereserve/reservecancelation01" status="PASSED">
+         <system-out><![CDATA[21-03-2024T14:52:15 - [TEST_CASE][PASSED] - Test Cases/managereserve/reservecancelation01: Test Cases/managereserve/reservecancelation01
+
+21-03-2024T14:52:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cosas/button_CANCEL")): Object: 'Object Repository/cosas/button_CANCEL' is clicked on
+
+21-03-2024T14:52:16 - [MESSAGE][PASSED] - Object: 'Object Repository/cosas/button_CANCEL' is clicked on
+
+21-03-2024T14:52:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cosas/div_Status Updated"), 1): Object 'Object Repository/cosas/div_Status Updated' is present
+
+21-03-2024T14:52:17 - [MESSAGE][PASSED] - Object 'Object Repository/cosas/div_Status Updated' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-03-2024T14:52:07 - [TEST_SUITE][PASSED] - reservecancelation: Test Cases/managereserve/reservecancelation01]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

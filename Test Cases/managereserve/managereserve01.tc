@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Prueba si se pueden crear nuevas reservas</description>
+   <name>managereserve01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8a2de324-160e-45ff-b747-ad306463dff7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9e621bca-12ab-494c-9c56-d138d80155eb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bce08a92-5361-41ac-938c-7291fb75f430</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3ac9c6fc-4659-49fa-acf1-770f130f1d8f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'3240020250300pm'</defaultValue>
+      <description></description>
+      <id>9e621bca-12ab-494c-9c56-d138d80155eb</id>
+      <masked>false</masked>
+      <name>fecha</name>
+   </variable>
+   <variable>
+      <defaultValue>'65e7e96a252eb9de416d5e0f'</defaultValue>
+      <description></description>
+      <id>bce08a92-5361-41ac-938c-7291fb75f430</id>
+      <masked>false</masked>
+      <name>restaurante</name>
+   </variable>
+   <variable>
+      <defaultValue>'65ef4ddb5d4dbe4ab7d923d3'</defaultValue>
+      <description></description>
+      <id>3ac9c6fc-4659-49fa-acf1-770f130f1d8f</id>
+      <masked>false</masked>
+      <name>mesa</name>
+   </variable>
+</TestCaseEntity>

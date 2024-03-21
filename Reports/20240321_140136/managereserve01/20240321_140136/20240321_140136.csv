@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+managereserve01,,,,21-03-2024 14:01:44,21-03-2024 14:01:45,0.878s,FAILED
+,,,,,,,
+Test Cases/managereserve/managereserve01,,Prueba si se pueden crear nuevas reservas,,21-03-2024 14:01:44,21-03-2024 14:01:45,0.616s,FAILED
+"click(findTestObject(""Object Repository/a_Add Reservation""))",,,,21-03-2024 14:01:44,21-03-2024 14:01:45,0.331s,FAILED
+,,,,,,,
+Test Cases/managereserve/managereserve01,,Prueba si se pueden crear nuevas reservas,,21-03-2024 14:01:45,21-03-2024 14:01:45,0.114s,FAILED
+"click(findTestObject(""Object Repository/a_Add Reservation""))",,,,21-03-2024 14:01:45,21-03-2024 14:01:45,0.041s,FAILED

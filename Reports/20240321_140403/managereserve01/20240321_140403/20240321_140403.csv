@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+managereserve01,Edge Chromium 122,,,21-03-2024 14:04:11,21-03-2024 14:04:27,16.044s,FAILED
+,,,,,,,
+Test Cases/login/login01,Edge Chromium 122,,,21-03-2024 14:04:11,21-03-2024 14:04:20,8.974s,FAILED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 14:04:11,21-03-2024 14:04:14,3.399s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Edge Chromium 122,,,21-03-2024 14:04:14,21-03-2024 14:04:15,0.637s,PASSED
+"click(findTestObject(""Object Repository/button_Log In""))",Edge Chromium 122,,,21-03-2024 14:04:15,21-03-2024 14:04:15,0.503s,PASSED
+"setText(findTestObject(""Object Repository/input_User Name_username""), strUsername)",Edge Chromium 122,,,21-03-2024 14:04:15,21-03-2024 14:04:16,0.908s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Password_password""), ""iflWuvlj4FI="")",Edge Chromium 122,,,21-03-2024 14:04:16,21-03-2024 14:04:17,0.340s,PASSED
+"click(findTestObject(""Object Repository/button_Log In""))",Edge Chromium 122,,,21-03-2024 14:04:17,21-03-2024 14:04:17,0.567s,PASSED
+"verifyElementPresent(findTestObject(""SeeIfloged""), 1)",Edge Chromium 122,,,21-03-2024 14:04:17,21-03-2024 14:04:20,2.370s,FAILED
+,,,,,,,
+Test Cases/managereserve/managereserve01,Edge Chromium 122,Prueba si se pueden crear nuevas reservas,,21-03-2024 14:04:20,21-03-2024 14:04:27,6.925s,FAILED
+"click(findTestObject(""Object Repository/a_Add Reservation""))",Edge Chromium 122,,,21-03-2024 14:04:20,21-03-2024 14:04:27,6.812s,FAILED

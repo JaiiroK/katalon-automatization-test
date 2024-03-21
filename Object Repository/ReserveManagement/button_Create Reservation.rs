@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Create Reservation</name>
+   <tag></tag>
+   <elementGuidId>7a6ca78a-7e64-4490-9202-fa93f7c0b1b8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1342d203-4a05-43d5-b11e-2b13ea2086fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>bd1f9a7f-f2ce-4f55-8916-e23e2fdc6709</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bg-violet-600 flex justify-center items-center rounded-2xl p-2 w-[250px] text-white disabled:opacity-60 absolute bottom-5 right-4</value>
+      <webElementGuid>326385f0-ff3d-4e0f-8092-ffbf87321295</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create Reservation</value>
+      <webElementGuid>6edc18b5-897f-4a20-b375-06bfa4e1ba17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;__className_5f06f5&quot;]/div[@class=&quot;relative h-screen&quot;]/main[@class=&quot;px-16&quot;]/div[@class=&quot;mt-8&quot;]/button[@class=&quot;bg-violet-600 flex justify-center items-center rounded-2xl p-2 w-[250px] text-white disabled:opacity-60 absolute bottom-5 right-4&quot;]</value>
+      <webElementGuid>7879f5c9-87bc-4548-8700-29a4e409f7be</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>cca05f0d-c73d-42cb-9554-e75af905f5ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>682deda2-f6bb-46d0-8988-b205f6e03919</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Create Reservation' or . = 'Create Reservation')]</value>
+      <webElementGuid>689d6944-bab9-469c-8a45-4fd7c5ec89c1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

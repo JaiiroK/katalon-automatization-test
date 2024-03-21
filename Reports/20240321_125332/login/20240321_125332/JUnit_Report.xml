@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login" time="46.007" tests="7" failures="0" errors="0">
+   <testsuite name="login" tests="7" failures="0" errors="0" time="46.007" skipped="0" timestamp="21-03-2024T12:53:40" hostname="Michael - DESKTOP-CAK74HU" id="Test Suites/login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Michael\\git\\katalon-automatization-test\\Reports\\20240321_125332\\login\\20240321_125332"/>
+         <property name="logFiles" value="C:\\Users\\Michael\\git\\katalon-automatization-test\\Reports\\20240321_125332\\login\\20240321_125332\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Michael - DESKTOP-CAK74HU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Edge Chromium 122"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="fcaa7b1996a459be8228b123d2326d78"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/login/login01" time="7.261" classname="Test Cases/login/login01" status="PASSED">
+         <system-out><![CDATA[21-03-2024T12:53:40 - [TEST_CASE][PASSED] - Test Cases/login/login01: Test Cases/login/login01
+
+21-03-2024T12:53:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-03-2024T12:53:40 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+21-03-2024T12:53:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-03-2024T12:53:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-03-2024T12:53:43 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/"): Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T12:53:44 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T12:53:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_Log In")): Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:53:44 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:53:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_User Name_username"), strUsername): Text 'gege' is set on object 'Object Repository/input_User Name_username'
+
+21-03-2024T12:53:45 - [MESSAGE][PASSED] - Text 'gege' is set on object 'Object Repository/input_User Name_username'
+
+21-03-2024T12:53:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_Password_password"), strPassword): Text ****** has been set on object 'Object Repository/input_Password_password'
+
+21-03-2024T12:53:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_Password_password'
+
+21-03-2024T12:53:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_Log In")): Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:53:46 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:53:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SeeIfloged"), 1): Object 'Object Repository/SeeIfloged' is present
+
+21-03-2024T12:53:47 - [MESSAGE][PASSED] - Object 'Object Repository/SeeIfloged' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login/login01" time="6.283" classname="Test Cases/login/login01" status="PASSED">
+         <system-out><![CDATA[21-03-2024T12:53:47 - [TEST_CASE][PASSED] - Test Cases/login/login01: Test Cases/login/login01
+
+21-03-2024T12:53:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-03-2024T12:53:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-03-2024T12:53:48 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+21-03-2024T12:53:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-03-2024T12:53:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-03-2024T12:53:50 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/"): Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T12:53:51 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T12:53:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_Log In")): Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:53:51 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:53:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_User Name_username"), strUsername): Text 'jperez' is set on object 'Object Repository/input_User Name_username'
+
+21-03-2024T12:53:52 - [MESSAGE][PASSED] - Text 'jperez' is set on object 'Object Repository/input_User Name_username'
+
+21-03-2024T12:53:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_Password_password"), strPassword): Text ****** has been set on object 'Object Repository/input_Password_password'
+
+21-03-2024T12:53:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_Password_password'
+
+21-03-2024T12:53:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_Log In")): Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:53:53 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:53:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SeeIfloged"), 1): Object 'Object Repository/SeeIfloged' is present
+
+21-03-2024T12:53:54 - [MESSAGE][PASSED] - Object 'Object Repository/SeeIfloged' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login/login01" time="6.594" classname="Test Cases/login/login01" status="PASSED">
+         <system-out><![CDATA[21-03-2024T12:53:54 - [TEST_CASE][PASSED] - Test Cases/login/login01: Test Cases/login/login01
+
+21-03-2024T12:53:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-03-2024T12:53:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-03-2024T12:53:54 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+21-03-2024T12:53:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-03-2024T12:53:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-03-2024T12:53:56 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/"): Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T12:53:57 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T12:53:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_Log In")): Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:53:58 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:53:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_User Name_username"), strUsername): Text 'j.grant' is set on object 'Object Repository/input_User Name_username'
+
+21-03-2024T12:53:59 - [MESSAGE][PASSED] - Text 'j.grant' is set on object 'Object Repository/input_User Name_username'
+
+21-03-2024T12:53:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_Password_password"), strPassword): Text ****** has been set on object 'Object Repository/input_Password_password'
+
+21-03-2024T12:53:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_Password_password'
+
+21-03-2024T12:53:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_Log In")): Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:53:59 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:53:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SeeIfloged"), 1): Object 'Object Repository/SeeIfloged' is present
+
+21-03-2024T12:54:00 - [MESSAGE][PASSED] - Object 'Object Repository/SeeIfloged' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login/login01" time="6.257" classname="Test Cases/login/login01" status="PASSED">
+         <system-out><![CDATA[21-03-2024T12:54:00 - [TEST_CASE][PASSED] - Test Cases/login/login01: Test Cases/login/login01
+
+21-03-2024T12:54:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-03-2024T12:54:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-03-2024T12:54:00 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+21-03-2024T12:54:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-03-2024T12:54:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-03-2024T12:54:03 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/"): Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T12:54:03 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T12:54:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_Log In")): Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:54:04 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:54:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_User Name_username"), strUsername): Text 'n.alexandrie' is set on object 'Object Repository/input_User Name_username'
+
+21-03-2024T12:54:05 - [MESSAGE][PASSED] - Text 'n.alexandrie' is set on object 'Object Repository/input_User Name_username'
+
+21-03-2024T12:54:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_Password_password"), strPassword): Text ****** has been set on object 'Object Repository/input_Password_password'
+
+21-03-2024T12:54:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_Password_password'
+
+21-03-2024T12:54:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_Log In")): Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:54:06 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:54:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SeeIfloged"), 1): Object 'Object Repository/SeeIfloged' is present
+
+21-03-2024T12:54:06 - [MESSAGE][PASSED] - Object 'Object Repository/SeeIfloged' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login/login01" time="6.528" classname="Test Cases/login/login01" status="PASSED">
+         <system-out><![CDATA[21-03-2024T12:54:06 - [TEST_CASE][PASSED] - Test Cases/login/login01: Test Cases/login/login01
+
+21-03-2024T12:54:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-03-2024T12:54:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-03-2024T12:54:07 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+21-03-2024T12:54:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-03-2024T12:54:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-03-2024T12:54:09 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/"): Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T12:54:10 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T12:54:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_Log In")): Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:54:10 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:54:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_User Name_username"), strUsername): Text 'g.miroslav' is set on object 'Object Repository/input_User Name_username'
+
+21-03-2024T12:54:11 - [MESSAGE][PASSED] - Text 'g.miroslav' is set on object 'Object Repository/input_User Name_username'
+
+21-03-2024T12:54:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_Password_password"), strPassword): Text ****** has been set on object 'Object Repository/input_Password_password'
+
+21-03-2024T12:54:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_Password_password'
+
+21-03-2024T12:54:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_Log In")): Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:54:12 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:54:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SeeIfloged"), 1): Object 'Object Repository/SeeIfloged' is present
+
+21-03-2024T12:54:13 - [MESSAGE][PASSED] - Object 'Object Repository/SeeIfloged' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login/login01" time="6.463" classname="Test Cases/login/login01" status="PASSED">
+         <system-out><![CDATA[21-03-2024T12:54:13 - [TEST_CASE][PASSED] - Test Cases/login/login01: Test Cases/login/login01
+
+21-03-2024T12:54:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-03-2024T12:54:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-03-2024T12:54:13 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+21-03-2024T12:54:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-03-2024T12:54:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-03-2024T12:54:16 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/"): Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T12:54:16 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T12:54:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_Log In")): Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:54:17 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:54:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_User Name_username"), strUsername): Text 'p.shaquila' is set on object 'Object Repository/input_User Name_username'
+
+21-03-2024T12:54:18 - [MESSAGE][PASSED] - Text 'p.shaquila' is set on object 'Object Repository/input_User Name_username'
+
+21-03-2024T12:54:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_Password_password"), strPassword): Text ****** has been set on object 'Object Repository/input_Password_password'
+
+21-03-2024T12:54:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_Password_password'
+
+21-03-2024T12:54:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_Log In")): Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:54:19 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:54:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SeeIfloged"), 1): Object 'Object Repository/SeeIfloged' is present
+
+21-03-2024T12:54:20 - [MESSAGE][PASSED] - Object 'Object Repository/SeeIfloged' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login/login01" time="6.318" classname="Test Cases/login/login01" status="PASSED">
+         <system-out><![CDATA[21-03-2024T12:54:20 - [TEST_CASE][PASSED] - Test Cases/login/login01: Test Cases/login/login01
+
+21-03-2024T12:54:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-03-2024T12:54:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-03-2024T12:54:20 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+21-03-2024T12:54:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-03-2024T12:54:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-03-2024T12:54:22 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/"): Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T12:54:23 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T12:54:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_Log In")): Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:54:23 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:54:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_User Name_username"), strUsername): Text 'a.henryka' is set on object 'Object Repository/input_User Name_username'
+
+21-03-2024T12:54:24 - [MESSAGE][PASSED] - Text 'a.henryka' is set on object 'Object Repository/input_User Name_username'
+
+21-03-2024T12:54:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_Password_password"), strPassword): Text ****** has been set on object 'Object Repository/input_Password_password'
+
+21-03-2024T12:54:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_Password_password'
+
+21-03-2024T12:54:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_Log In")): Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:54:25 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Log In' is clicked on
+
+21-03-2024T12:54:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SeeIfloged"), 1): Object 'Object Repository/SeeIfloged' is present
+
+21-03-2024T12:54:26 - [MESSAGE][PASSED] - Object 'Object Repository/SeeIfloged' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-03-2024T12:53:40 - [TEST_SUITE][PASSED] - login: Test Cases/login/login01]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

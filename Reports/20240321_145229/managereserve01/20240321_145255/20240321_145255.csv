@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+managereserve01,Edge Chromium 122,,,21-03-2024 14:55:17,21-03-2024 14:55:41,24.685s,FAILED
+,,,,,,,
+Test Cases/login/login01,Edge Chromium 122,,,21-03-2024 14:55:17,21-03-2024 14:55:25,8.007s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 14:55:17,21-03-2024 14:55:21,3.338s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Edge Chromium 122,,,21-03-2024 14:55:21,21-03-2024 14:55:21,0.761s,PASSED
+"click(findTestObject(""Login/button_LOG IN""))",Edge Chromium 122,,,21-03-2024 14:55:21,21-03-2024 14:55:22,0.504s,PASSED
+"setText(findTestObject(""Login/input_User Name_username""), strUsername)",Edge Chromium 122,,,21-03-2024 14:55:22,21-03-2024 14:55:23,0.960s,PASSED
+"setEncryptedText(findTestObject(""Login/input_Password_password""), strPassword)",Edge Chromium 122,,,21-03-2024 14:55:23,21-03-2024 14:55:23,0.352s,PASSED
+"click(findTestObject(""Login/button_Log In (1)""))",Edge Chromium 122,,,21-03-2024 14:55:23,21-03-2024 14:55:24,0.580s,PASSED
+"verifyElementPresent(findTestObject(""SeeIfloged""), 1)",Edge Chromium 122,,,21-03-2024 14:55:24,21-03-2024 14:55:25,1.216s,PASSED
+,,,,,,,
+Test Cases/managereserve/managereserve01,Edge Chromium 122,Prueba si se pueden crear nuevas reservas,,21-03-2024 14:55:25,21-03-2024 14:55:31,6.346s,FAILED
+"click(findTestObject(""ReserveManagement/a_Add Reservation""))",Edge Chromium 122,,,21-03-2024 14:55:25,21-03-2024 14:55:25,0.323s,PASSED
+"setText(findTestObject(""Object Repository/cosas/input_Date_date""), fecha)",Edge Chromium 122,,,21-03-2024 14:55:25,21-03-2024 14:55:27,1.220s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/select_Select OneMilano""), restaurante, true)",Edge Chromium 122,,,21-03-2024 14:55:27,21-03-2024 14:55:27,0.827s,PASSED
+"selectOptionByValue(findTestObject(""select_Select OneOrder 1 - Capacity 1Order 2 - Capacity 2Order 3 - Capacity 3Order 4 - Capacity 4""), mesa, true)",Edge Chromium 122,,,21-03-2024 14:55:27,21-03-2024 14:55:28,1.024s,PASSED
+"click(findTestObject(""Object Repository/cosas/button_Create Reservation""))",Edge Chromium 122,,,21-03-2024 14:55:28,21-03-2024 14:55:29,0.516s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/cosas/div_Reservation Created""), 1)",Edge Chromium 122,,,21-03-2024 14:55:29,21-03-2024 14:55:31,2.311s,FAILED
+,,,,,,,
+Test Cases/managereserve/managereserve01,Edge Chromium 122,Prueba si se pueden crear nuevas reservas,,21-03-2024 14:55:31,21-03-2024 14:55:36,5.086s,FAILED
+"click(findTestObject(""ReserveManagement/a_Add Reservation""))",Edge Chromium 122,,,21-03-2024 14:55:31,21-03-2024 14:55:32,0.293s,PASSED
+"setText(findTestObject(""Object Repository/cosas/input_Date_date""), fecha)",Edge Chromium 122,,,21-03-2024 14:55:32,21-03-2024 14:55:32,0.539s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/select_Select OneMilano""), restaurante, true)",Edge Chromium 122,,,21-03-2024 14:55:32,21-03-2024 14:55:33,0.775s,PASSED
+"selectOptionByValue(findTestObject(""select_Select OneOrder 1 - Capacity 1Order 2 - Capacity 2Order 3 - Capacity 3Order 4 - Capacity 4""), mesa, true)",Edge Chromium 122,,,21-03-2024 14:55:33,21-03-2024 14:55:34,0.813s,PASSED
+"click(findTestObject(""Object Repository/cosas/button_Create Reservation""))",Edge Chromium 122,,,21-03-2024 14:55:34,21-03-2024 14:55:34,0.273s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/cosas/div_Reservation Created""), 1)",Edge Chromium 122,,,21-03-2024 14:55:34,21-03-2024 14:55:36,2.380s,FAILED
+,,,,,,,
+Test Cases/managereserve/managereserve01,Edge Chromium 122,Prueba si se pueden crear nuevas reservas,,21-03-2024 14:55:36,21-03-2024 14:55:41,4.971s,FAILED
+"click(findTestObject(""ReserveManagement/a_Add Reservation""))",Edge Chromium 122,,,21-03-2024 14:55:36,21-03-2024 14:55:37,0.282s,PASSED
+"setText(findTestObject(""Object Repository/cosas/input_Date_date""), fecha)",Edge Chromium 122,,,21-03-2024 14:55:37,21-03-2024 14:55:37,0.536s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/select_Select OneMilano""), restaurante, true)",Edge Chromium 122,,,21-03-2024 14:55:37,21-03-2024 14:55:38,0.780s,PASSED
+"selectOptionByValue(findTestObject(""select_Select OneOrder 1 - Capacity 1Order 2 - Capacity 2Order 3 - Capacity 3Order 4 - Capacity 4""), mesa, true)",Edge Chromium 122,,,21-03-2024 14:55:38,21-03-2024 14:55:39,0.812s,PASSED
+"click(findTestObject(""Object Repository/cosas/button_Create Reservation""))",Edge Chromium 122,,,21-03-2024 14:55:39,21-03-2024 14:55:39,0.273s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/cosas/div_Reservation Created""), 1)",Edge Chromium 122,,,21-03-2024 14:55:39,21-03-2024 14:55:41,2.272s,FAILED

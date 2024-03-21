@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login,Edge Chromium 122,,,21-03-2024 11:57:05,21-03-2024 11:57:38,33.085s,PASSED
+,,,,,,,
+Test Cases/login/login01,Edge Chromium 122,,,21-03-2024 11:57:05,21-03-2024 11:57:13,7.792s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 11:57:05,21-03-2024 11:57:09,3.322s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Edge Chromium 122,,,21-03-2024 11:57:09,21-03-2024 11:57:09,0.614s,PASSED
+"click(findTestObject(""Object Repository/button_Log In""))",Edge Chromium 122,,,21-03-2024 11:57:09,21-03-2024 11:57:10,0.607s,PASSED
+"setText(findTestObject(""Object Repository/input_User Name_username""), strUsername)",Edge Chromium 122,,,21-03-2024 11:57:10,21-03-2024 11:57:11,0.920s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Password_password""), ""tzH6RvlfSTg="")",Edge Chromium 122,,,21-03-2024 11:57:11,21-03-2024 11:57:11,0.338s,PASSED
+"click(findTestObject(""Object Repository/button_Log In""))",Edge Chromium 122,,,21-03-2024 11:57:11,21-03-2024 11:57:12,0.553s,PASSED
+"verifyElementPresent(findTestObject(""h1_Reservations""), 1)",Edge Chromium 122,,,21-03-2024 11:57:12,21-03-2024 11:57:13,1.196s,PASSED
+,,,,,,,
+Test Cases/login/login01,Edge Chromium 122,,,21-03-2024 11:57:13,21-03-2024 11:57:20,6.622s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 11:57:13,21-03-2024 11:57:16,2.808s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Edge Chromium 122,,,21-03-2024 11:57:16,21-03-2024 11:57:17,0.655s,PASSED
+"click(findTestObject(""Object Repository/button_Log In""))",Edge Chromium 122,,,21-03-2024 11:57:17,21-03-2024 11:57:17,0.549s,PASSED
+"setText(findTestObject(""Object Repository/input_User Name_username""), strUsername)",Edge Chromium 122,,,21-03-2024 11:57:17,21-03-2024 11:57:18,0.905s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Password_password""), ""tzH6RvlfSTg="")",Edge Chromium 122,,,21-03-2024 11:57:18,21-03-2024 11:57:18,0.308s,PASSED
+"click(findTestObject(""Object Repository/button_Log In""))",Edge Chromium 122,,,21-03-2024 11:57:18,21-03-2024 11:57:19,0.563s,PASSED
+"verifyElementPresent(findTestObject(""h1_Reservations""), 1)",Edge Chromium 122,,,21-03-2024 11:57:19,21-03-2024 11:57:20,0.815s,PASSED
+,,,,,,,
+Test Cases/login/login01,Edge Chromium 122,,,21-03-2024 11:57:20,21-03-2024 11:57:26,6.218s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 11:57:20,21-03-2024 11:57:23,2.809s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Edge Chromium 122,,,21-03-2024 11:57:23,21-03-2024 11:57:23,0.601s,PASSED
+"click(findTestObject(""Object Repository/button_Log In""))",Edge Chromium 122,,,21-03-2024 11:57:23,21-03-2024 11:57:24,0.520s,PASSED
+"setText(findTestObject(""Object Repository/input_User Name_username""), strUsername)",Edge Chromium 122,,,21-03-2024 11:57:24,21-03-2024 11:57:25,0.920s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Password_password""), ""tzH6RvlfSTg="")",Edge Chromium 122,,,21-03-2024 11:57:25,21-03-2024 11:57:25,0.309s,PASSED
+"click(findTestObject(""Object Repository/button_Log In""))",Edge Chromium 122,,,21-03-2024 11:57:25,21-03-2024 11:57:25,0.503s,PASSED
+"verifyElementPresent(findTestObject(""h1_Reservations""), 1)",Edge Chromium 122,,,21-03-2024 11:57:25,21-03-2024 11:57:26,0.536s,PASSED
+,,,,,,,
+Test Cases/login/login01,Edge Chromium 122,,,21-03-2024 11:57:26,21-03-2024 11:57:32,5.884s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 11:57:26,21-03-2024 11:57:28,2.457s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Edge Chromium 122,,,21-03-2024 11:57:28,21-03-2024 11:57:29,0.594s,PASSED
+"click(findTestObject(""Object Repository/button_Log In""))",Edge Chromium 122,,,21-03-2024 11:57:29,21-03-2024 11:57:30,0.518s,PASSED
+"setText(findTestObject(""Object Repository/input_User Name_username""), strUsername)",Edge Chromium 122,,,21-03-2024 11:57:30,21-03-2024 11:57:30,0.897s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Password_password""), ""tzH6RvlfSTg="")",Edge Chromium 122,,,21-03-2024 11:57:30,21-03-2024 11:57:31,0.310s,PASSED
+"click(findTestObject(""Object Repository/button_Log In""))",Edge Chromium 122,,,21-03-2024 11:57:31,21-03-2024 11:57:31,0.508s,PASSED
+"verifyElementPresent(findTestObject(""h1_Reservations""), 1)",Edge Chromium 122,,,21-03-2024 11:57:31,21-03-2024 11:57:32,0.587s,PASSED
+,,,,,,,
+Test Cases/login/login01,Edge Chromium 122,,,21-03-2024 11:57:32,21-03-2024 11:57:38,6.229s,PASSED
+"openBrowser("""")",Edge Chromium 122,,,21-03-2024 11:57:32,21-03-2024 11:57:35,2.775s,PASSED
+"navigateToUrl(""http://localhost:3000/"")",Edge Chromium 122,,,21-03-2024 11:57:35,21-03-2024 11:57:35,0.637s,PASSED
+"click(findTestObject(""Object Repository/button_Log In""))",Edge Chromium 122,,,21-03-2024 11:57:35,21-03-2024 11:57:36,0.527s,PASSED
+"setText(findTestObject(""Object Repository/input_User Name_username""), strUsername)",Edge Chromium 122,,,21-03-2024 11:57:36,21-03-2024 11:57:37,0.876s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Password_password""), ""tzH6RvlfSTg="")",Edge Chromium 122,,,21-03-2024 11:57:37,21-03-2024 11:57:37,0.307s,PASSED
+"click(findTestObject(""Object Repository/button_Log In""))",Edge Chromium 122,,,21-03-2024 11:57:37,21-03-2024 11:57:37,0.511s,PASSED
+"verifyElementPresent(findTestObject(""h1_Reservations""), 1)",Edge Chromium 122,,,21-03-2024 11:57:37,21-03-2024 11:57:38,0.584s,PASSED

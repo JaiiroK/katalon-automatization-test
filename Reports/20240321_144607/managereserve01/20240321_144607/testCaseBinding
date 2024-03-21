@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/login/login01","testCaseId":"Test Cases/login/login01","iterationVariableName":""}
+{"testCaseName":"Test Cases/managereserve/managereserve01","testCaseId":"Test Cases/managereserve/managereserve01","iterationVariableName":"","bindedValues":{"fecha":"\u00273270020250400am\u0027","restaurante":"\u002765e7e96a252eb9de416d5e0f\u0027"}}
+{"testCaseName":"Test Cases/managereserve/managereserve01","testCaseId":"Test Cases/managereserve/managereserve01","iterationVariableName":"","bindedValues":{"fecha":"\u00273230020240500am\u0027","mesa":"\u002765e9ff79ed34ef946ee4367e\u0027","restaurante":"\u002765e7e96a252eb9de416d5e0f\u0027"}}
+{"testCaseName":"Test Cases/managereserve/managereserve01","testCaseId":"Test Cases/managereserve/managereserve01","iterationVariableName":"","bindedValues":{"fecha":"\u00273250020250300pm\u0027","mesa":"\u002765ef898913a42241eb7ab83b\u0027","restaurante":"\u002765e7e96a252eb9de416d5e0f\u0027"}}

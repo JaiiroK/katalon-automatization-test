@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Log In</name>
+   <tag></tag>
+   <elementGuidId>b3f67f4f-04e8-4449-81d2-4f70b286b04f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>fa6de483-963d-4e01-98b3-a9bd66d486e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>f5474c2e-3ac3-476d-acc4-bca8ff3a84e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bg-violet-600 flex justify-center items-center rounded-2xl p-2 w-[250px] text-white disabled:opacity-60 mt-8</value>
+      <webElementGuid>344c2d6b-f7a2-45e9-8d1f-9684ede1e301</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Log In</value>
+      <webElementGuid>38d37c4a-9ebf-42d9-8d47-ccacc0759dec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;__className_5f06f5&quot;]/div[@class=&quot;relative h-screen overflow-hidden text-white bg-violet-950&quot;]/main[@class=&quot;px-16&quot;]/div[@class=&quot;flex items-center justify-between mt-[7%]&quot;]/section[1]/form[@class=&quot;flex flex-col mt-8 w-[340px] gap-5&quot;]/button[@class=&quot;bg-violet-600 flex justify-center items-center rounded-2xl p-2 w-[250px] text-white disabled:opacity-60 mt-8&quot;]</value>
+      <webElementGuid>a5e1732e-e041-46ba-8b9c-7d3399b99146</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>9e7df013-6383-414d-a04d-c92f7415fad5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>3a52e268-aefa-4f9f-a2f4-bae883ab6292</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Log In' or . = 'Log In')]</value>
+      <webElementGuid>4c33f5bf-19af-46a4-b9d6-b2cf630a6b17</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

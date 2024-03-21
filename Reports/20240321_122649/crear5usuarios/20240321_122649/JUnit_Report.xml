@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="crear5usuarios" time="51.794" tests="5" failures="0" errors="0">
+   <testsuite name="crear5usuarios" tests="5" failures="0" errors="0" time="51.794" skipped="0" timestamp="21-03-2024T12:26:57" hostname="Michael - DESKTOP-CAK74HU" id="Test Suites/crear5usuarios">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Michael\\git\\katalon-automatization-test\\Reports\\20240321_122649\\crear5usuarios\\20240321_122649"/>
+         <property name="logFiles" value="C:\\Users\\Michael\\git\\katalon-automatization-test\\Reports\\20240321_122649\\crear5usuarios\\20240321_122649\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Michael - DESKTOP-CAK74HU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Edge Chromium 122"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="399661847d9490ab70a9aee074c9d352"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/newuser/newuser01" time="11.299" classname="Test Cases/newuser/newuser01" status="PASSED">
+         <system-out><![CDATA[21-03-2024T12:26:57 - [TEST_CASE][PASSED] - Test Cases/newuser/newuser01: Test Cases/newuser/newuser01
+
+21-03-2024T12:26:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-03-2024T12:26:58 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+21-03-2024T12:27:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-03-2024T12:27:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-03-2024T12:27:01 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/"): Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T12:27:01 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T12:27:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/a_Sign Up")): Object: 'Object Repository/a_Sign Up' is clicked on
+
+21-03-2024T12:27:02 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Sign Up' is clicked on
+
+21-03-2024T12:27:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Name_name"), name): Text 'jasmin' is set on object 'Object Repository/input_Name_name'
+
+21-03-2024T12:27:03 - [MESSAGE][PASSED] - Text 'jasmin' is set on object 'Object Repository/input_Name_name'
+
+21-03-2024T12:27:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Last Name_lastName"), lastname): Text 'grant' is set on object 'Object Repository/input_Last Name_lastName'
+
+21-03-2024T12:27:03 - [MESSAGE][PASSED] - Text 'grant' is set on object 'Object Repository/input_Last Name_lastName'
+
+21-03-2024T12:27:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Phone_phone"), phone): Text '829318031' is set on object 'Object Repository/input_Phone_phone'
+
+21-03-2024T12:27:04 - [MESSAGE][PASSED] - Text '829318031' is set on object 'Object Repository/input_Phone_phone'
+
+21-03-2024T12:27:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Email_email"), email): Text 'j.grant@j.c' is set on object 'Object Repository/input_Email_email'
+
+21-03-2024T12:27:05 - [MESSAGE][PASSED] - Text 'j.grant@j.c' is set on object 'Object Repository/input_Email_email'
+
+21-03-2024T12:27:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_User Name_username"), username): Text 'j.grant' is set on object 'Object Repository/input_User Name_username'
+
+21-03-2024T12:27:05 - [MESSAGE][PASSED] - Text 'j.grant' is set on object 'Object Repository/input_User Name_username'
+
+21-03-2024T12:27:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_Password_password"), password): Text ****** has been set on object 'Object Repository/input_Password_password'
+
+21-03-2024T12:27:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_Password_password'
+
+21-03-2024T12:27:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_Confirm Password_confirmPassword"), password): Text ****** has been set on object 'Object Repository/input_Confirm Password_confirmPassword'
+
+21-03-2024T12:27:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_Confirm Password_confirmPassword'
+
+21-03-2024T12:27:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/select_Select OneUserRestaurant"), "user", true): All options with value 'user' are selected in object 'Object Repository/select_Select OneUserRestaurant'  using regular expression
+
+21-03-2024T12:27:07 - [MESSAGE][PASSED] - All options with value 'user' are selected in object 'Object Repository/select_Select OneUserRestaurant'  using regular expression
+
+21-03-2024T12:27:07 - [TEST_STEP][PASSED] - click(findTestObject("button_Create Acccount")): Object: 'Object Repository/button_Create Acccount' is clicked on
+
+21-03-2024T12:27:07 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Create Acccount' is clicked on
+
+21-03-2024T12:27:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("div_Your user is created"), 1): Object 'Object Repository/div_Your user is created' is present
+
+21-03-2024T12:27:09 - [MESSAGE][PASSED] - Object 'Object Repository/div_Your user is created' is present
+
+21-03-2024T12:27:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-03-2024T12:27:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/newuser/newuser01" time="10.223" classname="Test Cases/newuser/newuser01" status="PASSED">
+         <system-out><![CDATA[21-03-2024T12:27:09 - [TEST_CASE][PASSED] - Test Cases/newuser/newuser01: Test Cases/newuser/newuser01
+
+21-03-2024T12:27:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-03-2024T12:27:09 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+21-03-2024T12:27:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-03-2024T12:27:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-03-2024T12:27:11 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/"): Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T12:27:12 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T12:27:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/a_Sign Up")): Object: 'Object Repository/a_Sign Up' is clicked on
+
+21-03-2024T12:27:13 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Sign Up' is clicked on
+
+21-03-2024T12:27:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Name_name"), name): Text 'nuadu' is set on object 'Object Repository/input_Name_name'
+
+21-03-2024T12:27:14 - [MESSAGE][PASSED] - Text 'nuadu' is set on object 'Object Repository/input_Name_name'
+
+21-03-2024T12:27:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Last Name_lastName"), lastname): Text 'alexandrie' is set on object 'Object Repository/input_Last Name_lastName'
+
+21-03-2024T12:27:14 - [MESSAGE][PASSED] - Text 'alexandrie' is set on object 'Object Repository/input_Last Name_lastName'
+
+21-03-2024T12:27:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Phone_phone"), phone): Text '123801280' is set on object 'Object Repository/input_Phone_phone'
+
+21-03-2024T12:27:15 - [MESSAGE][PASSED] - Text '123801280' is set on object 'Object Repository/input_Phone_phone'
+
+21-03-2024T12:27:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Email_email"), email): Text 'n.alexandrie@n.c' is set on object 'Object Repository/input_Email_email'
+
+21-03-2024T12:27:15 - [MESSAGE][PASSED] - Text 'n.alexandrie@n.c' is set on object 'Object Repository/input_Email_email'
+
+21-03-2024T12:27:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_User Name_username"), username): Text 'n.alexandrie' is set on object 'Object Repository/input_User Name_username'
+
+21-03-2024T12:27:16 - [MESSAGE][PASSED] - Text 'n.alexandrie' is set on object 'Object Repository/input_User Name_username'
+
+21-03-2024T12:27:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_Password_password"), password): Text ****** has been set on object 'Object Repository/input_Password_password'
+
+21-03-2024T12:27:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_Password_password'
+
+21-03-2024T12:27:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_Confirm Password_confirmPassword"), password): Text ****** has been set on object 'Object Repository/input_Confirm Password_confirmPassword'
+
+21-03-2024T12:27:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_Confirm Password_confirmPassword'
+
+21-03-2024T12:27:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/select_Select OneUserRestaurant"), "user", true): All options with value 'user' are selected in object 'Object Repository/select_Select OneUserRestaurant'  using regular expression
+
+21-03-2024T12:27:18 - [MESSAGE][PASSED] - All options with value 'user' are selected in object 'Object Repository/select_Select OneUserRestaurant'  using regular expression
+
+21-03-2024T12:27:18 - [TEST_STEP][PASSED] - click(findTestObject("button_Create Acccount")): Object: 'Object Repository/button_Create Acccount' is clicked on
+
+21-03-2024T12:27:18 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Create Acccount' is clicked on
+
+21-03-2024T12:27:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("div_Your user is created"), 1): Object 'Object Repository/div_Your user is created' is present
+
+21-03-2024T12:27:19 - [MESSAGE][PASSED] - Object 'Object Repository/div_Your user is created' is present
+
+21-03-2024T12:27:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-03-2024T12:27:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/newuser/newuser01" time="9.848" classname="Test Cases/newuser/newuser01" status="PASSED">
+         <system-out><![CDATA[21-03-2024T12:27:19 - [TEST_CASE][PASSED] - Test Cases/newuser/newuser01: Test Cases/newuser/newuser01
+
+21-03-2024T12:27:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-03-2024T12:27:19 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+21-03-2024T12:27:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-03-2024T12:27:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-03-2024T12:27:21 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/"): Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T12:27:22 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T12:27:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/a_Sign Up")): Object: 'Object Repository/a_Sign Up' is clicked on
+
+21-03-2024T12:27:23 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Sign Up' is clicked on
+
+21-03-2024T12:27:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Name_name"), name): Text 'gerd' is set on object 'Object Repository/input_Name_name'
+
+21-03-2024T12:27:23 - [MESSAGE][PASSED] - Text 'gerd' is set on object 'Object Repository/input_Name_name'
+
+21-03-2024T12:27:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Last Name_lastName"), lastname): Text 'miroslav' is set on object 'Object Repository/input_Last Name_lastName'
+
+21-03-2024T12:27:24 - [MESSAGE][PASSED] - Text 'miroslav' is set on object 'Object Repository/input_Last Name_lastName'
+
+21-03-2024T12:27:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Phone_phone"), phone): Text '489289389' is set on object 'Object Repository/input_Phone_phone'
+
+21-03-2024T12:27:25 - [MESSAGE][PASSED] - Text '489289389' is set on object 'Object Repository/input_Phone_phone'
+
+21-03-2024T12:27:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Email_email"), email): Text 'g.miroslav@g.c' is set on object 'Object Repository/input_Email_email'
+
+21-03-2024T12:27:25 - [MESSAGE][PASSED] - Text 'g.miroslav@g.c' is set on object 'Object Repository/input_Email_email'
+
+21-03-2024T12:27:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_User Name_username"), username): Text 'g.miroslav' is set on object 'Object Repository/input_User Name_username'
+
+21-03-2024T12:27:26 - [MESSAGE][PASSED] - Text 'g.miroslav' is set on object 'Object Repository/input_User Name_username'
+
+21-03-2024T12:27:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_Password_password"), password): Text ****** has been set on object 'Object Repository/input_Password_password'
+
+21-03-2024T12:27:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_Password_password'
+
+21-03-2024T12:27:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_Confirm Password_confirmPassword"), password): Text ****** has been set on object 'Object Repository/input_Confirm Password_confirmPassword'
+
+21-03-2024T12:27:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_Confirm Password_confirmPassword'
+
+21-03-2024T12:27:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/select_Select OneUserRestaurant"), "user", true): All options with value 'user' are selected in object 'Object Repository/select_Select OneUserRestaurant'  using regular expression
+
+21-03-2024T12:27:28 - [MESSAGE][PASSED] - All options with value 'user' are selected in object 'Object Repository/select_Select OneUserRestaurant'  using regular expression
+
+21-03-2024T12:27:28 - [TEST_STEP][PASSED] - click(findTestObject("button_Create Acccount")): Object: 'Object Repository/button_Create Acccount' is clicked on
+
+21-03-2024T12:27:28 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Create Acccount' is clicked on
+
+21-03-2024T12:27:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("div_Your user is created"), 1): Object 'Object Repository/div_Your user is created' is present
+
+21-03-2024T12:27:29 - [MESSAGE][PASSED] - Object 'Object Repository/div_Your user is created' is present
+
+21-03-2024T12:27:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-03-2024T12:27:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/newuser/newuser01" time="9.883" classname="Test Cases/newuser/newuser01" status="PASSED">
+         <system-out><![CDATA[21-03-2024T12:27:29 - [TEST_CASE][PASSED] - Test Cases/newuser/newuser01: Test Cases/newuser/newuser01
+
+21-03-2024T12:27:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-03-2024T12:27:29 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+21-03-2024T12:27:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-03-2024T12:27:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-03-2024T12:27:31 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/"): Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T12:27:32 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T12:27:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/a_Sign Up")): Object: 'Object Repository/a_Sign Up' is clicked on
+
+21-03-2024T12:27:33 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Sign Up' is clicked on
+
+21-03-2024T12:27:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Name_name"), name): Text 'pooja' is set on object 'Object Repository/input_Name_name'
+
+21-03-2024T12:27:33 - [MESSAGE][PASSED] - Text 'pooja' is set on object 'Object Repository/input_Name_name'
+
+21-03-2024T12:27:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Last Name_lastName"), lastname): Text 'shaquila' is set on object 'Object Repository/input_Last Name_lastName'
+
+21-03-2024T12:27:34 - [MESSAGE][PASSED] - Text 'shaquila' is set on object 'Object Repository/input_Last Name_lastName'
+
+21-03-2024T12:27:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Phone_phone"), phone): Text '819234981' is set on object 'Object Repository/input_Phone_phone'
+
+21-03-2024T12:27:35 - [MESSAGE][PASSED] - Text '819234981' is set on object 'Object Repository/input_Phone_phone'
+
+21-03-2024T12:27:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Email_email"), email): Text 'p.shaquila@p.c' is set on object 'Object Repository/input_Email_email'
+
+21-03-2024T12:27:35 - [MESSAGE][PASSED] - Text 'p.shaquila@p.c' is set on object 'Object Repository/input_Email_email'
+
+21-03-2024T12:27:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_User Name_username"), username): Text 'p.shaquila' is set on object 'Object Repository/input_User Name_username'
+
+21-03-2024T12:27:36 - [MESSAGE][PASSED] - Text 'p.shaquila' is set on object 'Object Repository/input_User Name_username'
+
+21-03-2024T12:27:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_Password_password"), password): Text ****** has been set on object 'Object Repository/input_Password_password'
+
+21-03-2024T12:27:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_Password_password'
+
+21-03-2024T12:27:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_Confirm Password_confirmPassword"), password): Text ****** has been set on object 'Object Repository/input_Confirm Password_confirmPassword'
+
+21-03-2024T12:27:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_Confirm Password_confirmPassword'
+
+21-03-2024T12:27:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/select_Select OneUserRestaurant"), "user", true): All options with value 'user' are selected in object 'Object Repository/select_Select OneUserRestaurant'  using regular expression
+
+21-03-2024T12:27:38 - [MESSAGE][PASSED] - All options with value 'user' are selected in object 'Object Repository/select_Select OneUserRestaurant'  using regular expression
+
+21-03-2024T12:27:38 - [TEST_STEP][PASSED] - click(findTestObject("button_Create Acccount")): Object: 'Object Repository/button_Create Acccount' is clicked on
+
+21-03-2024T12:27:38 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Create Acccount' is clicked on
+
+21-03-2024T12:27:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("div_Your user is created"), 1): Object 'Object Repository/div_Your user is created' is present
+
+21-03-2024T12:27:39 - [MESSAGE][PASSED] - Object 'Object Repository/div_Your user is created' is present
+
+21-03-2024T12:27:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-03-2024T12:27:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/newuser/newuser01" time="10.095" classname="Test Cases/newuser/newuser01" status="PASSED">
+         <system-out><![CDATA[21-03-2024T12:27:39 - [TEST_CASE][PASSED] - Test Cases/newuser/newuser01: Test Cases/newuser/newuser01
+
+21-03-2024T12:27:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-03-2024T12:27:39 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+21-03-2024T12:27:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-03-2024T12:27:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-03-2024T12:27:42 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:3000/"): Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T12:27:42 - [MESSAGE][PASSED] - Navigate to 'http://localhost:3000/' successfully
+
+21-03-2024T12:27:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/a_Sign Up")): Object: 'Object Repository/a_Sign Up' is clicked on
+
+21-03-2024T12:27:43 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Sign Up' is clicked on
+
+21-03-2024T12:27:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Name_name"), name): Text 'anne' is set on object 'Object Repository/input_Name_name'
+
+21-03-2024T12:27:44 - [MESSAGE][PASSED] - Text 'anne' is set on object 'Object Repository/input_Name_name'
+
+21-03-2024T12:27:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Last Name_lastName"), lastname): Text 'henryka' is set on object 'Object Repository/input_Last Name_lastName'
+
+21-03-2024T12:27:44 - [MESSAGE][PASSED] - Text 'henryka' is set on object 'Object Repository/input_Last Name_lastName'
+
+21-03-2024T12:27:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Phone_phone"), phone): Text '128094818' is set on object 'Object Repository/input_Phone_phone'
+
+21-03-2024T12:27:45 - [MESSAGE][PASSED] - Text '128094818' is set on object 'Object Repository/input_Phone_phone'
+
+21-03-2024T12:27:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_Email_email"), email): Text 'a.henryka@a.c' is set on object 'Object Repository/input_Email_email'
+
+21-03-2024T12:27:45 - [MESSAGE][PASSED] - Text 'a.henryka@a.c' is set on object 'Object Repository/input_Email_email'
+
+21-03-2024T12:27:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_User Name_username"), username): Text 'a.henryka' is set on object 'Object Repository/input_User Name_username'
+
+21-03-2024T12:27:46 - [MESSAGE][PASSED] - Text 'a.henryka' is set on object 'Object Repository/input_User Name_username'
+
+21-03-2024T12:27:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_Password_password"), password): Text ****** has been set on object 'Object Repository/input_Password_password'
+
+21-03-2024T12:27:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_Password_password'
+
+21-03-2024T12:27:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_Confirm Password_confirmPassword"), password): Text ****** has been set on object 'Object Repository/input_Confirm Password_confirmPassword'
+
+21-03-2024T12:27:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_Confirm Password_confirmPassword'
+
+21-03-2024T12:27:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/select_Select OneUserRestaurant"), "user", true): All options with value 'user' are selected in object 'Object Repository/select_Select OneUserRestaurant'  using regular expression
+
+21-03-2024T12:27:48 - [MESSAGE][PASSED] - All options with value 'user' are selected in object 'Object Repository/select_Select OneUserRestaurant'  using regular expression
+
+21-03-2024T12:27:48 - [TEST_STEP][PASSED] - click(findTestObject("button_Create Acccount")): Object: 'Object Repository/button_Create Acccount' is clicked on
+
+21-03-2024T12:27:48 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Create Acccount' is clicked on
+
+21-03-2024T12:27:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("div_Your user is created"), 1): Object 'Object Repository/div_Your user is created' is present
+
+21-03-2024T12:27:49 - [MESSAGE][PASSED] - Object 'Object Repository/div_Your user is created' is present
+
+21-03-2024T12:27:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-03-2024T12:27:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-03-2024T12:26:57 - [TEST_SUITE][PASSED] - crear5usuarios: Test Cases/newuser/newuser01]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
